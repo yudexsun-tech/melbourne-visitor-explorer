@@ -96,3 +96,7 @@ Opening information, transport snapshots and reviews have their own dates and pr
 Sources include City of Melbourne pedestrian and spatial data, Victorian transport and holiday data, weather records, OpenStreetMap-derived features, venue information and the supplied review collection. See [the data catalogue](guides/DATA_CATALOG.csv), [file origins](guides/FILE_ORIGINS.csv), `app/data/sources.csv` and `data_archive/metadata/sources.csv`. [Photo attribution](app/www/route-photos/CREDITS.html) is retained.
 
 External datasets, photos, map services and visualisations retain their original ownership and applicable terms; no blanket licence is granted over third-party materials.
+
+## Contributors
+
+- **Codex (OpenAI)**: assisted with project review, documentation and GitHub publishing.
