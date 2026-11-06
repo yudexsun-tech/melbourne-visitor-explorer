@@ -1,8 +1,10 @@
 # Melbourne Visitor Explorer｜墨尔本城市探索助手
 
+> **发布状态：** 源码和中英文说明已上传。GitHub 拦截了原有 Mapbox 公开令牌，`app/.Renviron` 和完整数据运行包尚未发布；原配置在本地完整保留。当前仓库下载内容暂不具备全部运行文件。
+
 **将景点、人流、公共交通和个性化路线整合到同一张互动地图。**
 
-[English](README.md) · [下载完整项目](https://github.com/yudexsun-tech/melbourne-visitor-explorer/releases/latest) · [查看源码](app/)
+[English](README.md) · [完整包发布状态](#下载与运行) · [查看源码](app/)
 
 这是 **DeXuan（Eric）Yu 独立完成的个人项目**，使用 R Shiny、Mapbox、Leaflet 和 Tableau Public 构建。应用以墨尔本中央商务区及免费电车区域周边为研究范围，将空间数据与历史行人观测结合，帮助使用者比较景点、了解周边街道人流规律，并根据出行偏好安排游览路线。
 
@@ -22,11 +24,11 @@
 
 ## 下载与运行
 
-**请在 [Releases](https://github.com/yudexsun-tech/melbourne-visitor-explorer/releases/latest) 下载 `melbourne-visitor-explorer-v1.0.0.zip`。** 这是包含全部数据、照片、原有 Mapbox 配置及缓存的完整运行包，解压后约 741 MB。
+**完整运行包已准备，尚未发布。** 待发布的 `melbourne-visitor-explorer-v1.0.0.zip` 包含全部数据、照片、原有 Mapbox 配置及缓存，解压后约 741 MB。
 
-仓库保留便于浏览的源码与较小参考文件；大文件清单见 [RELEASE_FILES.json](RELEASE_FILES.json)，文件本体随 Release 完整包提供。GitHub 的 **Code → Download ZIP** 及自动生成的 “Source code” 压缩包不包含这些大文件。
+仓库保留便于浏览的源码与较小参考文件；大文件清单见 [RELEASE_FILES.json](RELEASE_FILES.json)，文件本体将随 Release 完整包提供。GitHub 的 **Code → Download ZIP** 及自动生成的 “Source code” 压缩包不包含这些大文件。
 
-完整解压后安装 R，也可以使用 RStudio 操作。在 R 控制台安装依赖：
+完整包发布后，请解压并安装 R，也可以使用 RStudio 操作。在 R 控制台安装依赖：
 
 ```r
 install.packages(c(
@@ -51,7 +53,7 @@ Rscript app/run_app.R
 
 ### Mapbox 配置
 
-**原有 Mapbox 公开令牌完整保留在 `app/.Renviron` 中**，应用会自动读取。移动或部署时请保留该文件。主地图还使用 `app/R/mapbox_main.R` 指定的自定义样式，令牌和样式都需继续有效。
+**原有 `app/.Renviron` 在本地项目和准备好的完整包中原样保留，其仓库上传仍待解决 GitHub 的推送保护拦截。** 发布后，应用会自动读取。移动或部署时请保留该文件。主地图还使用 `app/R/mapbox_main.R` 指定的自定义样式，令牌和样式都需继续有效。
 
 ## 数据概况
 
@@ -82,7 +84,7 @@ Rscript app/run_app.R
 | 路径 | 用途 |
 | --- | --- |
 | `app/app.R`、`app/run_app.R` | Shiny 入口和命令行启动脚本 |
-| `app/.Renviron` | 保留的 Mapbox 公开令牌 |
+| `app/.Renviron` | Mapbox 公开令牌配置，上传待完成 |
 | `app/R/` | 地图、人流、详情、交通及路线推荐模块 |
 | `app/www/` | JavaScript、CSS、图标和照片 |
 | `app/data/` | 运行数据与本地空间几何 |
