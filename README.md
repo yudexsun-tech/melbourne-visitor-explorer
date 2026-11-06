@@ -1,10 +1,8 @@
 # Melbourne Visitor Explorer
 
-> **Publication status:** Source and bilingual documentation are available. The complete data archive and `app/.Renviron` are not yet published: GitHub push protection blocked the supplied public Mapbox token. The original configuration is preserved locally. This source checkout is not yet a complete runnable distribution.
-
 **Explore Melbourne's CBD through attractions, pedestrian activity, public transport and personalised sightseeing routes.**
 
-[简体中文](README.zh-CN.md) · [Release status](#download-and-run) · [Source code](app/)
+[简体中文](README.zh-CN.md) · [Download the complete project](https://github.com/yudexsun-tech/melbourne-visitor-explorer/releases/latest) · [Source code](app/)
 
 An individual project by **DeXuan (Eric) Yu**, built with R Shiny, Mapbox, Leaflet and Tableau Public. It combines spatial data and historical pedestrian observations to help visitors compare places, understand when nearby streets tend to be busy and plan a day around their preferences.
 
@@ -24,11 +22,11 @@ The route planner uses explicit scoring rules and a distance penalty to choose a
 
 ## Download and run
 
-**The complete release is prepared but not yet published.** The planned `melbourne-visitor-explorer-v1.0.0.zip` contains all datasets, photos, the original Mapbox configuration and the cache. The expanded project is approximately 741 MB.
+**Download `melbourne-visitor-explorer-v1.0.0.zip` from [Releases](https://github.com/yudexsun-tech/melbourne-visitor-explorer/releases/latest).** This is the complete runnable distribution, including all datasets, photos, the original Mapbox configuration and the cache. The expanded project is approximately 741 MB.
 
-The repository contains the source and smaller reference files. Large files are listed in [RELEASE_FILES.json](RELEASE_FILES.json) and will be supplied in the complete Release ZIP. GitHub's **Code → Download ZIP** and automatic “Source code” release archives do not include those large files.
+The repository contains the source and smaller reference files. Large files are listed in [RELEASE_FILES.json](RELEASE_FILES.json) and supplied in the complete Release ZIP. GitHub's **Code → Download ZIP** and automatic “Source code” release archives do not include those large files.
 
-Once the release is available, fully extract it and install R (and optionally RStudio), then install these packages in an R console:
+Fully extract the release, install R (and optionally RStudio), then install these packages in an R console:
 
 ```r
 install.packages(c(
@@ -53,7 +51,7 @@ Then open **http://127.0.0.1:3840**. Mapbox and Tableau require internet access.
 
 ### Mapbox configuration
 
-**The original `app/.Renviron` is preserved unchanged in the local project and prepared release, but its repository upload is pending GitHub's push-protection resolution.** The app reads it automatically. Keep this file when moving or deploying the project. The main map also uses the custom style in `app/R/mapbox_main.R`; both the token and that style must remain available.
+**The existing public Mapbox token is preserved unchanged in `app/.Renviron`.** The app reads it automatically. Keep this file when moving or deploying the project. The main map also uses the custom style in `app/R/mapbox_main.R`; both the token and that style must remain available.
 
 ## Data at a glance
 
@@ -84,7 +82,7 @@ Opening information, transport snapshots and reviews have their own dates and pr
 | Path | Purpose |
 | --- | --- |
 | `app/app.R`, `app/run_app.R` | Shiny entry point and command-line launcher |
-| `app/.Renviron` | Public Mapbox configuration; upload pending |
+| `app/.Renviron` | Preserved public Mapbox token |
 | `app/R/` | Mapping, crowd analysis, details, transport and route planning |
 | `app/www/` | JavaScript, CSS, icons and attraction photos |
 | `app/data/` | Runtime tables and local geometry |
