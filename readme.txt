@@ -1,5 +1,4 @@
 Melbourne Visitor Explorer
-An individual project by DeXuan (Eric) Yu.
 
 English introduction and setup: README.md
 中文介绍与运行说明：README.zh-CN.md
