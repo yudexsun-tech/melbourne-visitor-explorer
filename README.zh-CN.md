@@ -96,3 +96,7 @@ Rscript app/run_app.R
 项目使用墨尔本市行人与空间数据、维多利亚州交通及公共假日数据、天气记录、OpenStreetMap 衍生要素、场馆信息及随附评论数据。详见 [数据目录](guides/DATA_CATALOG.csv)、[文件来源](guides/FILE_ORIGINS.csv)、`app/data/sources.csv` 与 `data_archive/metadata/sources.csv`。[照片署名](app/www/route-photos/CREDITS.html) 保留在项目中。
 
 外部数据、照片、地图服务和图表保留各自权属与使用条件，仓库不对第三方素材统一授予额外许可。
+
+## 贡献者
+
+- **Codex（OpenAI）**：协助项目检查、文档整理与 GitHub 发布。
