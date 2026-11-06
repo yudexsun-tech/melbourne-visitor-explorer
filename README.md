@@ -4,7 +4,7 @@
 
 [简体中文](README.zh-CN.md) · [Download the complete project](https://github.com/yudexsun-tech/melbourne-visitor-explorer/releases/latest) · [Source code](app/)
 
-An individual project by **DeXuan (Eric) Yu**, built with R Shiny, Mapbox, Leaflet and Tableau Public. It combines spatial data and historical pedestrian observations to help visitors compare places, understand when nearby streets tend to be busy and plan a day around their preferences.
+Built with R Shiny, Mapbox, Leaflet and Tableau Public. It combines spatial data and historical pedestrian observations to help visitors compare places, understand when nearby streets tend to be busy and plan a day around their preferences.
 
 ## Features
 
@@ -67,11 +67,11 @@ Then open **http://127.0.0.1:3840**. Mapbox and Tableau require internet access.
 
 These are file-level counts. Map views apply geographic and display filters; transport records can include platforms and station-related records.
 
-Attractions include State Library Victoria, NGV Australia, ACMI, Immigration Museum, St Paul's Cathedral, Queen Victoria Market, Royal Arcade, The Block Arcade, Bourke Street Mall, Chinatown, Flinders Street Station's exterior, Federation Square and Hosier Lane. Some routes also include a Docklands park stop without a measured crowd estimate.
+Attractions include State Library Victoria, NGV Australia, ACMI, Immigration Museum, St Paul's Cathedral, Queen Victoria Market, Royal Arcade, The Block Arcade, Bourke Street Mall, Chinatown, Flinders Street Station's exterior, Federation Square and Hosier Lane.
 
 ## Methods and interpretation
 
-Pedestrian profiles pool eligible **2024 and 2025** observations by month, weather class, day type and hour. Internal month keys retain 2025 labels. “Holiday” groups weekends and Victorian public holidays. Missing observations remain missing; valid zero counts are retained.
+Pedestrian profiles pool eligible **2024 and 2025** observations by month, weather class, day type and hour. “Holiday” groups weekends and Victorian public holidays. Missing observations remain missing; valid zero counts are retained.
 
 Attraction activity is inferred from nearby street sensors. Quiet/Moderate/Busy thresholds use fixed, attraction-specific terciles of known-open profile means normalised by estimated effective area. Street heat and transport-stop indicators use their separate footway-width rules. Historical street passages do not measure simultaneous venue occupancy, queues or onboard passenger load.
 
@@ -95,9 +95,4 @@ Opening information, transport snapshots and reviews have their own dates and pr
 
 Sources include City of Melbourne pedestrian and spatial data, Victorian transport and holiday data, weather records, OpenStreetMap-derived features, venue information and the supplied review collection. See [the data catalogue](guides/DATA_CATALOG.csv), [file origins](guides/FILE_ORIGINS.csv), `app/data/sources.csv` and `data_archive/metadata/sources.csv`. [Photo attribution](app/www/route-photos/CREDITS.html) is retained.
 
-This application is presented as an individual portfolio project. External datasets, photos, map services and visualisations retain their original ownership and applicable terms; no blanket licence is granted over third-party materials.
-
-## Publication checks
-
-Original application code, public Mapbox configuration and data bytes are preserved. Platform metadata and saved R session files are excluded; introductory documentation is replaced with these bilingual descriptions. File integrity and local source references were checked. An end-to-end R/browser run was not performed in the publication environment because R was unavailable.
-
+External datasets, photos, map services and visualisations retain their original ownership and applicable terms; no blanket licence is granted over third-party materials.
