@@ -1,0 +1,653 @@
+{
+  "version": "1.2_historical_details",
+  "checked_date": "2026-10-13",
+  "analysis_year": 2025,
+  "attractions": 13,
+  "previous_unknown_fields": 27,
+  "newly_populated_unknown_fields": 19,
+  "remaining_blank_unknown_fields": 8,
+  "status_counts": {
+    "archived_2025_snapshot": 22,
+    "dated_2025_report": 1,
+    "programme_specific_2025": 2,
+    "exhibition_specific_2025": 1,
+    "dated_2025_variations": 1,
+    "conflicting_2025_sources": 1,
+    "not_verified_2025": 8,
+    "scoped_2025_access_statement": 2,
+    "project_scope_note": 13,
+    "dated_2025_surface_context": 1
+  },
+  "filled_fields": [
+    {
+      "attraction_id": "ATTR001",
+      "field": "admission_notes_en",
+      "old_status": "not_verified_2025",
+      "new_status": "dated_2025_report"
+    },
+    {
+      "attraction_id": "ATTR001",
+      "field": "booking_notes_en",
+      "old_status": "not_verified_2025",
+      "new_status": "archived_2025_snapshot"
+    },
+    {
+      "attraction_id": "ATTR001",
+      "field": "accessibility_notes_en",
+      "old_status": "not_verified_2025",
+      "new_status": "archived_2025_snapshot"
+    },
+    {
+      "attraction_id": "ATTR003",
+      "field": "opening_hours",
+      "old_status": "not_verified_2025",
+      "new_status": "archived_2025_snapshot"
+    },
+    {
+      "attraction_id": "ATTR004",
+      "field": "opening_hours",
+      "old_status": "not_verified_2025",
+      "new_status": "archived_2025_snapshot"
+    },
+    {
+      "attraction_id": "ATTR004",
+      "field": "admission_notes_en",
+      "old_status": "not_verified_2025",
+      "new_status": "dated_2025_variations"
+    },
+    {
+      "attraction_id": "ATTR004",
+      "field": "booking_notes_en",
+      "old_status": "not_verified_2025",
+      "new_status": "programme_specific_2025"
+    },
+    {
+      "attraction_id": "ATTR004",
+      "field": "accessibility_notes_en",
+      "old_status": "not_verified_2025",
+      "new_status": "archived_2025_snapshot"
+    },
+    {
+      "attraction_id": "ATTR005",
+      "field": "opening_hours",
+      "old_status": "not_verified_2025",
+      "new_status": "conflicting_2025_sources"
+    },
+    {
+      "attraction_id": "ATTR005",
+      "field": "admission_notes_en",
+      "old_status": "not_verified_2025",
+      "new_status": "archived_2025_snapshot"
+    },
+    {
+      "attraction_id": "ATTR005",
+      "field": "booking_notes_en",
+      "old_status": "not_verified_2025",
+      "new_status": "archived_2025_snapshot"
+    },
+    {
+      "attraction_id": "ATTR005",
+      "field": "accessibility_notes_en",
+      "old_status": "not_verified_2025",
+      "new_status": "archived_2025_snapshot"
+    },
+    {
+      "attraction_id": "ATTR006",
+      "field": "admission_notes_en",
+      "old_status": "not_verified_2025",
+      "new_status": "archived_2025_snapshot"
+    },
+    {
+      "attraction_id": "ATTR007",
+      "field": "opening_hours",
+      "old_status": "not_verified_2025",
+      "new_status": "archived_2025_snapshot"
+    },
+    {
+      "attraction_id": "ATTR007",
+      "field": "accessibility_notes_en",
+      "old_status": "not_verified_2025",
+      "new_status": "scoped_2025_access_statement"
+    },
+    {
+      "attraction_id": "ATTR008",
+      "field": "opening_hours",
+      "old_status": "not_verified_2025",
+      "new_status": "archived_2025_snapshot"
+    },
+    {
+      "attraction_id": "ATTR008",
+      "field": "accessibility_notes_en",
+      "old_status": "not_verified_2025",
+      "new_status": "scoped_2025_access_statement"
+    },
+    {
+      "attraction_id": "ATTR012",
+      "field": "accessibility_notes_en",
+      "old_status": "not_verified_2025",
+      "new_status": "archived_2025_snapshot"
+    },
+    {
+      "attraction_id": "ATTR016",
+      "field": "accessibility_notes_en",
+      "old_status": "not_verified_2025",
+      "new_status": "dated_2025_surface_context"
+    }
+  ],
+  "remaining_gaps": [
+    {
+      "attraction_id": "ATTR006",
+      "name_en": "Queen Victoria Market",
+      "field": "booking_notes_en"
+    },
+    {
+      "attraction_id": "ATTR007",
+      "name_en": "Royal Arcade",
+      "field": "admission_notes_en"
+    },
+    {
+      "attraction_id": "ATTR007",
+      "name_en": "Royal Arcade",
+      "field": "booking_notes_en"
+    },
+    {
+      "attraction_id": "ATTR008",
+      "name_en": "The Block Arcade",
+      "field": "admission_notes_en"
+    },
+    {
+      "attraction_id": "ATTR008",
+      "name_en": "The Block Arcade",
+      "field": "booking_notes_en"
+    },
+    {
+      "attraction_id": "ATTR009",
+      "name_en": "Bourke Street Mall",
+      "field": "accessibility_notes_en"
+    },
+    {
+      "attraction_id": "ATTR010",
+      "name_en": "Chinatown (Little Bourke Street)",
+      "field": "accessibility_notes_en"
+    },
+    {
+      "attraction_id": "ATTR011",
+      "name_en": "Flinders Street Railway Station - exterior",
+      "field": "accessibility_notes_en"
+    }
+  ],
+  "limitations": [
+    "Sources support sampled dates/scopes, not every day in 2025.",
+    "NGV, ACMI and Immigration booking notes remain programme-specific; no general booking exemption is inferred.",
+    "Hosier evidence covers surface only; two arcade access statements are limited site/listing claims.",
+    "Cathedral schedules differ; Immigration senior tariffs differ by capture. No transition dates are invented.",
+    "Bourke/Chinatown/Flinders exterior access is unverified; inside shops/platforms excluded."
+  ],
+  "sources": [
+    {
+      "source_id": "HIST_SLV_VISIT_FEB",
+      "name": "State Library Victoria visitor information 2025 capture",
+      "publisher": "State Library Victoria",
+      "original_url": "https://www.slv.vic.gov.au/visit",
+      "archive_url": "https://web.archive.org/web/20250210081956id_/https://www.slv.vic.gov.au/visit",
+      "evidence_date": "2025-02-10",
+      "evidence_date_basis": "Official page archived at 2025-02-10T08:19:56Z; actual replay content and final capture URL checked. Capture date is not a valid-from date.",
+      "source_kind": "archived_official_page",
+      "source_locator": "Opening hours; visiting and ticketing sections",
+      "scope": "",
+      "archive_timestamp_utc": "2025-02-10T08:19:56Z",
+      "sha256_retrieved_content": "12359d3aed1a475581f5dff7a5cfc4f154ddf70b657b1263d28c2feaae1b842c",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_SLV_VISIT_AUG",
+      "name": "State Library Victoria visitor information 2025 capture",
+      "publisher": "State Library Victoria",
+      "original_url": "https://www.slv.vic.gov.au/visit",
+      "archive_url": "https://web.archive.org/web/20250803084415id_/https://www.slv.vic.gov.au/visit",
+      "evidence_date": "2025-08-03",
+      "evidence_date_basis": "Official page archived at 2025-08-03T08:44:15Z; actual replay content and final capture URL checked. Capture date is not a valid-from date.",
+      "source_kind": "archived_official_page",
+      "source_locator": "Opening hours; visiting and ticketing sections",
+      "scope": "",
+      "archive_timestamp_utc": "2025-08-03T08:44:15Z",
+      "sha256_retrieved_content": "7ae72a13d196fc31d2ecda34ab9b725712472bd00da5ffb8350f65a15063e423",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_ACMI_VISIT_JAN",
+      "name": "ACMI visitor information 2025 capture",
+      "publisher": "ACMI",
+      "original_url": "https://www.acmi.net.au/plan-your-visit/",
+      "archive_url": "https://web.archive.org/web/20250102172919id_/https://www.acmi.net.au/plan-your-visit/",
+      "evidence_date": "2025-01-02",
+      "evidence_date_basis": "Official page archived at 2025-01-02T17:29:19Z; actual replay content and final capture URL checked. Capture date is not a valid-from date.",
+      "source_kind": "archived_official_page",
+      "source_locator": "Opening hours; visiting and ticketing sections",
+      "scope": "",
+      "archive_timestamp_utc": "2025-01-02T17:29:19Z",
+      "sha256_retrieved_content": "5b682e418012eddcf64b9cd4da72c48bd26d15dc8daadebabf8cc0d7c846f652",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_ACMI_VISIT_DEC",
+      "name": "ACMI visitor information 2025 capture",
+      "publisher": "ACMI",
+      "original_url": "https://www.acmi.net.au/plan-your-visit/",
+      "archive_url": "https://web.archive.org/web/20251216223007id_/https://www.acmi.net.au/plan-your-visit/",
+      "evidence_date": "2025-12-16",
+      "evidence_date_basis": "Official page archived at 2025-12-16T22:30:07Z; actual replay content and final capture URL checked. Capture date is not a valid-from date.",
+      "source_kind": "archived_official_page",
+      "source_locator": "Opening hours; visiting and ticketing sections",
+      "scope": "",
+      "archive_timestamp_utc": "2025-12-16T22:30:07Z",
+      "sha256_retrieved_content": "f3e1a68dfb7d281386da1e75f3863dfe67a3ce77eb6d89ad233ee689cae22dca",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_SLV_FAQ_FEB",
+      "name": "State Library Victoria visitor FAQ 2025 capture",
+      "publisher": "State Library Victoria",
+      "original_url": "https://www.slv.vic.gov.au/reopening/faq",
+      "archive_url": "https://web.archive.org/web/20250225030605id_/https://www.slv.vic.gov.au/reopening/faq",
+      "evidence_date": "2025-02-25",
+      "evidence_date_basis": "Official page archived at 2025-02-25T03:06:05Z; actual replay content and final capture URL checked. Capture date is not a valid-from date.",
+      "source_kind": "archived_official_page",
+      "source_locator": "Visiting the Library; booking FAQ",
+      "scope": "",
+      "archive_timestamp_utc": "2025-02-25T03:06:05Z",
+      "sha256_retrieved_content": "be5df96fb7515cdb3f2fe83669bfa8212d9f36ea22b72332e098e737a18d3569",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_SLV_ANNUAL_2025",
+      "name": "State Library Victoria Annual Report 2024-25",
+      "publisher": "State Library Victoria",
+      "original_url": "https://www.slv.vic.gov.au/sites/default/files/SLV_Annual_Report_2025_0.pdf",
+      "archive_url": "",
+      "evidence_date": "2025-06-30",
+      "evidence_date_basis": "Reporting period ending 2025-06-30; declaration dated September 2025, exact publication day not established. This date is a reporting-period end, not a publication date.",
+      "source_kind": "dated_official_document",
+      "source_locator": "Printed pages 26 and 41; reporting year ending 30 June 2025",
+      "scope": "Institutional public admission; separate ticketed programmes.",
+      "archive_timestamp_utc": "",
+      "sha256_retrieved_content": "",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_FED_ACCESS_JAN",
+      "name": "Fed Square accessibility 2025 capture",
+      "publisher": "Fed Square",
+      "original_url": "https://fedsquare.com/accessibility",
+      "archive_url": "https://web.archive.org/web/20250124095020id_/https://fedsquare.com/accessibility",
+      "evidence_date": "2025-01-24",
+      "evidence_date_basis": "Official page archived at 2025-01-24T09:50:20Z; actual replay content and final capture URL checked. Capture date is not a valid-from date.",
+      "source_kind": "archived_official_page",
+      "source_locator": "The Main Square; Accessible Toilets; Changing Places",
+      "scope": "",
+      "archive_timestamp_utc": "2025-01-24T09:50:20Z",
+      "sha256_retrieved_content": "384a663cd47708a1ef881f12e6df144aea7bb70ac008c8a06f3400da0d1fcdb7",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_SLV_ACCESS_JUN",
+      "name": "State Library Victoria accessibility 2025 capture",
+      "publisher": "State Library Victoria",
+      "original_url": "https://www.slv.vic.gov.au/visit/access-and-inclusion",
+      "archive_url": "https://web.archive.org/web/20250602113307id_/https://www.slv.vic.gov.au/visit/access-and-inclusion",
+      "evidence_date": "2025-06-02",
+      "evidence_date_basis": "Official page archived at 2025-06-02T11:33:07Z; actual replay content and final capture URL checked. Capture date is not a valid-from date.",
+      "source_kind": "archived_official_page",
+      "source_locator": "Wheelchair access; Moving within the Library; Accessible toilets",
+      "scope": "",
+      "archive_timestamp_utc": "2025-06-02T11:33:07Z",
+      "sha256_retrieved_content": "abbb43c4de985064a87f241520de0f4f6a9e28ace45d7d152ba39ed9710c8c41",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_ACMI_ACCESS_JAN",
+      "name": "ACMI accessibility 2025 capture",
+      "publisher": "ACMI",
+      "original_url": "https://www.acmi.net.au/access/",
+      "archive_url": "https://web.archive.org/web/20250104182734id_/https://www.acmi.net.au/access/",
+      "evidence_date": "2025-01-04",
+      "evidence_date_basis": "Official page archived at 2025-01-04T18:27:34Z; actual replay content and final capture URL checked. Capture date is not a valid-from date.",
+      "source_kind": "archived_official_page",
+      "source_locator": "Wheelchair access; lifts; accessible toilets; wheelchair loan",
+      "scope": "",
+      "archive_timestamp_utc": "2025-01-04T18:27:34Z",
+      "sha256_retrieved_content": "1ce01512926813e69002431778bbdd9b61e49a054d0f96a0a1f9db2ec128a8b4",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_IM_VISIT_FEB",
+      "name": "Immigration Museum visitor information 2025 capture",
+      "publisher": "Museums Victoria",
+      "original_url": "https://museumsvictoria.com.au/immigrationmuseum/plan-your-visit/",
+      "archive_url": "https://web.archive.org/web/20250203165723/https://museumsvictoria.com.au/immigrationmuseum/plan-your-visit/",
+      "evidence_date": "2025-02-03",
+      "evidence_date_basis": "Official page archived at 2025-02-03T16:57:23Z; actual replay content and final capture URL checked. Capture date is not a valid-from date.",
+      "source_kind": "archived_official_page",
+      "source_locator": "Opening hours; general admission; visitor facilities",
+      "scope": "",
+      "archive_timestamp_utc": "2025-02-03T16:57:23Z",
+      "sha256_retrieved_content": "da41345af63743282381ca6cd972434d7578d242e190701545cce9c99d3e1091",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_IM_VISIT_DEC",
+      "name": "Immigration Museum visitor information 2025 capture",
+      "publisher": "Museums Victoria",
+      "original_url": "https://museumsvictoria.com.au/immigrationmuseum/plan-your-visit/",
+      "archive_url": "https://web.archive.org/web/20251207194025/https://museumsvictoria.com.au/immigrationmuseum/plan-your-visit/",
+      "evidence_date": "2025-12-07",
+      "evidence_date_basis": "Official page archived at 2025-12-07T19:40:25Z; actual replay content and final capture URL checked. Capture date is not a valid-from date.",
+      "source_kind": "archived_official_page",
+      "source_locator": "Opening hours; general admission; visitor facilities",
+      "scope": "",
+      "archive_timestamp_utc": "2025-12-07T19:40:25Z",
+      "sha256_retrieved_content": "14e17e2bccf725732bfcd696447917c4814caaffcdba19061241eefbbaa3d829",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_IM_ACCESS_JAN",
+      "name": "Immigration Museum accessibility 2025 capture",
+      "publisher": "Museums Victoria",
+      "original_url": "https://museumsvictoria.com.au/immigrationmuseum/plan-your-visit/accessibility/",
+      "archive_url": "https://web.archive.org/web/20250119123137/https://museumsvictoria.com.au/immigrationmuseum/plan-your-visit/accessibility/",
+      "evidence_date": "2025-01-19",
+      "evidence_date_basis": "Official page archived at 2025-01-19T12:31:37Z; actual replay content and final capture URL checked. Capture date is not a valid-from date.",
+      "source_kind": "archived_official_page",
+      "source_locator": "Wheelchair access; lifts, ramps and escalators; toilets",
+      "scope": "",
+      "archive_timestamp_utc": "2025-01-19T12:31:37Z",
+      "sha256_retrieved_content": "ec6bfac06af1d9687d0c25d54cbf0177dc8bdc41230d429db4e197705d6e93a6",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_IM_ACCESS_DEC",
+      "name": "Immigration Museum accessibility 2025 capture",
+      "publisher": "Museums Victoria",
+      "original_url": "https://museumsvictoria.com.au/immigrationmuseum/plan-your-visit/accessibility/",
+      "archive_url": "https://web.archive.org/web/20251207194432/https://museumsvictoria.com.au/immigrationmuseum/plan-your-visit/accessibility/",
+      "evidence_date": "2025-12-07",
+      "evidence_date_basis": "Official page archived at 2025-12-07T19:44:32Z; actual replay content and final capture URL checked. Capture date is not a valid-from date.",
+      "source_kind": "archived_official_page",
+      "source_locator": "Wheelchair access; lifts, ramps and escalators; toilets",
+      "scope": "",
+      "archive_timestamp_utc": "2025-12-07T19:44:32Z",
+      "sha256_retrieved_content": "6a4cee1a825795f58f100890abf7a18e8db94ceb00c2242644b0a3e160b534c8",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_NGV_VISIT_JAN",
+      "name": "NGV visitor information 2025 capture",
+      "publisher": "National Gallery of Victoria",
+      "original_url": "https://www.ngv.vic.gov.au/plan-your-visit/",
+      "archive_url": "https://web.archive.org/web/20250104024602/https://www.ngv.vic.gov.au/plan-your-visit/",
+      "evidence_date": "2025-01-04",
+      "evidence_date_basis": "Official page archived at 2025-01-04T02:46:02Z; actual replay content and final capture URL checked. Capture date is not a valid-from date.",
+      "source_kind": "archived_official_page",
+      "source_locator": "Opening hours; general admission; visitor facilities",
+      "scope": "",
+      "archive_timestamp_utc": "2025-01-04T02:46:02Z",
+      "sha256_retrieved_content": "272082cb4508396e19b4e380bc93b50f94bcbe01c680c95064bf8e55bdc1af72",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_NGV_VISIT_NOV",
+      "name": "NGV visitor information 2025 capture",
+      "publisher": "National Gallery of Victoria",
+      "original_url": "https://www.ngv.vic.gov.au/plan-your-visit/",
+      "archive_url": "https://web.archive.org/web/20251107155456/https://www.ngv.vic.gov.au/plan-your-visit/",
+      "evidence_date": "2025-11-07",
+      "evidence_date_basis": "Official page archived at 2025-11-07T15:54:56Z; actual replay content and final capture URL checked. Capture date is not a valid-from date.",
+      "source_kind": "archived_official_page",
+      "source_locator": "Opening hours; general admission; visitor facilities",
+      "scope": "",
+      "archive_timestamp_utc": "2025-11-07T15:54:56Z",
+      "sha256_retrieved_content": "ce6a3f985c70effc26fc18db2de1fd865e35674c33d7081d5f052720cef37d49",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_NGV_ACCESS_NOV",
+      "name": "NGV accessibility 2025 capture",
+      "publisher": "National Gallery of Victoria",
+      "original_url": "https://www.ngv.vic.gov.au/plan-your-visit/access/",
+      "archive_url": "https://web.archive.org/web/20251111040357/https://www.ngv.vic.gov.au/plan-your-visit/access/",
+      "evidence_date": "2025-11-11",
+      "evidence_date_basis": "Official page archived at 2025-11-11T04:03:57Z; actual replay content and final capture URL checked. Capture date is not a valid-from date.",
+      "source_kind": "archived_official_page",
+      "source_locator": "Wheelchair access; lifts, ramps and escalators; toilets",
+      "scope": "",
+      "archive_timestamp_utc": "2025-11-11T04:03:57Z",
+      "sha256_retrieved_content": "175f0fa82fafc1f74f9faf0859489c512d417efa771cc89d14ce39cad4e3e532",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_IM_ORDERUP_OCT",
+      "name": "Order Up official exhibition announcement",
+      "publisher": "Museums Victoria",
+      "original_url": "https://museumsvictoria.com.au/media-releases/order-up-new-exhibition-highlights-the-humble-docket-to-celebrate-a-city-fed-by-many-cultures/",
+      "archive_url": "",
+      "evidence_date": "2025-10-06",
+      "evidence_date_basis": "Publication date explicitly stated as 6 October 2025; not a general advance-reservation policy.",
+      "source_kind": "dated_official_document",
+      "source_locator": "Dated media release; Order Up ticket sales paragraph",
+      "scope": "Order Up programme ticket purchase channels only.",
+      "archive_timestamp_utc": "",
+      "sha256_retrieved_content": "",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_CATH_FAQ_JUN",
+      "name": "St Paul's Cathedral Melbourne CATH_FAQ_JUN2025",
+      "publisher": "St Paul's Cathedral Melbourne",
+      "original_url": "https://cathedral.org.au/explore/visitor-faqs/",
+      "archive_url": "https://web.archive.org/web/20250630122310/https://cathedral.org.au/explore/visitor-faqs/",
+      "evidence_date": "2025-06-30",
+      "evidence_date_basis": "Official page archived at 2025-06-30T12:23:10Z; actual replay content and final capture URL checked. Capture date is not a valid-from date.",
+      "source_kind": "archived_official_page",
+      "source_locator": "How much does it cost to enter?; Do I need to book?; Will services of worship be taking place?; Do you have toilet facilities?",
+      "scope": "",
+      "archive_timestamp_utc": "2025-06-30T12:23:10Z",
+      "sha256_retrieved_content": "7f6707eaccff99a5ef7305efac85834d0ddb14ffa84aa59d41321c12afebc1db",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_CATH_VISIT_JAN",
+      "name": "St Paul's Cathedral Melbourne CATH_VISIT_JAN2025",
+      "publisher": "St Paul's Cathedral Melbourne",
+      "original_url": "https://cathedral.org.au/explore/visitor-information/",
+      "archive_url": "https://web.archive.org/web/20250114153852/https://cathedral.org.au/explore/visitor-information/",
+      "evidence_date": "2025-01-14",
+      "evidence_date_basis": "Official page archived at 2025-01-14T15:38:52Z; actual replay content and final capture URL checked. Capture date is not a valid-from date.",
+      "source_kind": "archived_official_page",
+      "source_locator": "Opening Times (Free Admission); Accessibility; Guided Tours",
+      "scope": "",
+      "archive_timestamp_utc": "2025-01-14T15:38:52Z",
+      "sha256_retrieved_content": "68b125a8743035cc7cf25d029cc3251722d1b2109da4f4404763be2299da7820",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_CATH_VISIT_NOV",
+      "name": "St Paul's Cathedral Melbourne CATH_VISIT_NOV2025",
+      "publisher": "St Paul's Cathedral Melbourne",
+      "original_url": "https://cathedral.org.au/explore/visitor-information/",
+      "archive_url": "https://web.archive.org/web/20251104081214/https://cathedral.org.au/explore/visitor-information/",
+      "evidence_date": "2025-11-04",
+      "evidence_date_basis": "Official page archived at 2025-11-04T08:12:14Z; actual replay content and final capture URL checked. Capture date is not a valid-from date.",
+      "source_kind": "archived_official_page",
+      "source_locator": "Opening Times (Free Admission); Accessibility; Guided Tours; Today's Services and Events",
+      "scope": "",
+      "archive_timestamp_utc": "2025-11-04T08:12:14Z",
+      "sha256_retrieved_content": "d139466fbb9dc2145e9be93c521a77393039b711823feef60c47bc8a77b2eb91",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_QVM_ACCESS_JAN",
+      "name": "Queen Victoria Market Pty Ltd QVM_ACCESS_JAN2025",
+      "publisher": "Queen Victoria Market Pty Ltd",
+      "original_url": "https://qvm.com.au/visit-us/accessibility-at-queen-victoria-market/",
+      "archive_url": "https://web.archive.org/web/20250120082627/https://qvm.com.au/visit-us/accessibility-at-queen-victoria-market/",
+      "evidence_date": "2025-01-20",
+      "evidence_date_basis": "Official page archived at 2025-01-20T08:26:27Z; actual replay content and final capture URL checked. Capture date is not a valid-from date.",
+      "source_kind": "archived_official_page",
+      "source_locator": "Moving Around the Market; Meat & Fish Hall; Dairy Produce Hall; Facilities; Wheelchair for Hire; Assistance Animals",
+      "scope": "",
+      "archive_timestamp_utc": "2025-01-20T08:26:27Z",
+      "sha256_retrieved_content": "b73ba4a0698524a0f4bd2b7d7b27002c567b5e66ba1eec8797a743d898492c75",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_QVM_FAQ_JAN",
+      "name": "Queen Victoria Market Pty Ltd QVM_FAQ_JAN2025",
+      "publisher": "Queen Victoria Market Pty Ltd",
+      "original_url": "https://support.qvm.com.au/hc/en-us/articles/8919548142873-General-Market-Frequently-Asked-Questions",
+      "archive_url": "https://web.archive.org/web/20250122002125/https://support.qvm.com.au/hc/en-us/articles/8919548142873-General-Market-Frequently-Asked-Questions",
+      "evidence_date": "2025-01-22",
+      "evidence_date_basis": "Official page archived at 2025-01-22T00:21:25Z; actual replay content and final capture URL checked. Capture date is not a valid-from date.",
+      "source_kind": "archived_official_page",
+      "source_locator": "When is the Market open?; Extreme Heat Policy; Can I book a wheelchair at the Market?",
+      "scope": "",
+      "archive_timestamp_utc": "2025-01-22T00:21:25Z",
+      "sha256_retrieved_content": "adf8ad242d3480160ad185471841b165f1661e566e061c6c8baba780166ea029",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_QVM_VV_JAN",
+      "name": "Visit Victoria QVM_VV_JAN2025",
+      "publisher": "Visit Victoria",
+      "original_url": "https://www.visitmelbourne.com/regions/melbourne/see-and-do/shopping-and-fashion/markets/queen-victoria-market",
+      "archive_url": "https://web.archive.org/web/20250117042409/https://www.visitmelbourne.com/regions/melbourne/see-and-do/shopping-and-fashion/markets/queen-victoria-market",
+      "evidence_date": "2025-01-17",
+      "evidence_date_basis": "Official page archived at 2025-01-17T04:24:09Z; actual replay content and final capture URL checked. Capture date is not a valid-from date.",
+      "source_kind": "archived_official_page",
+      "source_locator": "Cost; Opening hours; Book now link target",
+      "scope": "",
+      "archive_timestamp_utc": "2025-01-17T04:24:09Z",
+      "sha256_retrieved_content": "4fecd0b7fa5af0d2b825d85d78de5b11dd925cc5f69e99ff49d7eed94d52eb5a",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_CATH_BOOKLET_APR",
+      "name": "St Paul's Cathedral service booklet 2025-04-20",
+      "publisher": "St Paul's Cathedral Melbourne",
+      "original_url": "https://cathedral.org.au/wp-content/uploads/2025/04/Easter-Day-10.00am-Choral-Eucharist.pdf",
+      "archive_url": "",
+      "evidence_date": "2025-04-20",
+      "evidence_date_basis": "Date of the service booklet; not a reconstructed valid-from/valid-to schedule.",
+      "source_kind": "dated_official_document",
+      "source_locator": "Printed page 15; Cathedral Opening Hours",
+      "scope": "Dated advertised visitor hours; sources differ and effective change dates are unknown.",
+      "archive_timestamp_utc": "",
+      "sha256_retrieved_content": "",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_CATH_BOOKLET_OCT",
+      "name": "St Paul's Cathedral service booklet 2025-10-26",
+      "publisher": "St Paul's Cathedral Melbourne",
+      "original_url": "https://cathedral.org.au/wp-content/uploads/2025/10/4pm-OSC30-Choral-Evensong-10_26.pdf",
+      "archive_url": "",
+      "evidence_date": "2025-10-26",
+      "evidence_date_basis": "Date of the service booklet; not a reconstructed valid-from/valid-to schedule.",
+      "source_kind": "dated_official_document",
+      "source_locator": "Printed page 9; Cathedral Opening Hours",
+      "scope": "Dated advertised visitor hours; sources differ and effective change dates are unknown.",
+      "archive_timestamp_utc": "",
+      "sha256_retrieved_content": "",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_ROYAL_HOURS_JAN",
+      "name": "Royal Arcade 2025 opening_hours",
+      "publisher": "Royal Arcade",
+      "original_url": "https://royalarcade.com.au/pages/opening-hours",
+      "archive_url": "https://web.archive.org/web/20250116023725/https://royalarcade.com.au/pages/opening-hours",
+      "evidence_date": "2025-01-16",
+      "evidence_date_basis": "Official page archived at 2025-01-16T02:37:25Z; actual replay content and final capture URL checked. Capture date is not a valid-from date.",
+      "source_kind": "archived_official_page",
+      "source_locator": "Main page heading Opening Hours; four weekday-group paragraphs; repeated footer.",
+      "scope": "General arcade hours in January 2025 capture, no whole-year or holiday guarantee.",
+      "archive_timestamp_utc": "2025-01-16T02:37:25Z",
+      "sha256_retrieved_content": "177016bc9f606b586c2c9074b69128612d75491242342bc5ac8ac3b6448d186d",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_BLOCK_HOURS_JAN",
+      "name": "Block Arcade 2025 opening_hours",
+      "publisher": "Block Arcade",
+      "original_url": "https://theblock.com.au/contact/",
+      "archive_url": "https://web.archive.org/web/20250119134052/https://theblock.com.au/contact/",
+      "evidence_date": "2025-01-19",
+      "evidence_date_basis": "Official page archived at 2025-01-19T13:40:52Z; actual replay content and final capture URL checked. Capture date is not a valid-from date.",
+      "source_kind": "archived_official_page",
+      "source_locator": "Contact > Find Us > ARCADE HOURS table.",
+      "scope": "Explicit ARCADE HOURS; tenant business times excluded; January 2025 capture, no whole-year holiday guarantee.",
+      "archive_timestamp_utc": "2025-01-19T13:40:52Z",
+      "sha256_retrieved_content": "d4e6733b2640a58c7dfa7b2fd0e5ef1f529eb83b83bf5d5c931c1f813ca0fff2",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_ROYAL_ACCESS_MAR",
+      "name": "Royal Arcade 2025 accessibility_notes_en",
+      "publisher": "City of Melbourne / Flash Forward",
+      "original_url": "https://flash-fwd.com/laneway/the-royal-arcade",
+      "archive_url": "https://web.archive.org/web/20250328024815/https://flash-fwd.com/laneway/the-royal-arcade",
+      "evidence_date": "2025-03-28",
+      "evidence_date_basis": "Official page archived at 2025-03-28T02:48:15Z; actual replay content and final capture URL checked. Capture date is not a valid-from date.",
+      "source_kind": "archived_official_page",
+      "source_locator": "Visit The Royal Arcade > Accessibility > Wheelchair accessible and Dog guides and service animals.",
+      "scope": "City of Melbourne Flash Forward Royal Arcade site; no proof of access to every tenant shop, toilets or upper floors. The artwork is stated no longer visible and must not be advertised as still visible.",
+      "archive_timestamp_utc": "2025-03-28T02:48:15Z",
+      "sha256_retrieved_content": "46512525b07c543d491d6eaaf3824fe3873f5c2f479aea8a09462d752ec9449f",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_BLOCK_ACCESS_FEB",
+      "name": "Block Arcade 2025 accessibility_notes_en",
+      "publisher": "Visit Victoria",
+      "original_url": "https://www.visitmelbourne.com/regions/melbourne/see-and-do/art-and-culture/architecture-and-design/vv-the-block-arcade",
+      "archive_url": "https://web.archive.org/web/20250210005248/https://www.visitmelbourne.com/regions/melbourne/see-and-do/art-and-culture/architecture-and-design/vv-the-block-arcade",
+      "evidence_date": "2025-02-10",
+      "evidence_date_basis": "Official page archived at 2025-02-10T00:52:48Z; actual replay content and final capture URL checked. Capture date is not a valid-from date.",
+      "source_kind": "archived_official_page",
+      "source_locator": "The Block Arcade > Accessibility; info-item template li access list.",
+      "scope": "Official venue listing access badge captured February 2025; does not enumerate entrances, public toilets or every tenant.",
+      "archive_timestamp_utc": "2025-02-10T00:52:48Z",
+      "sha256_retrieved_content": "8c1a6d021564b11c755abd3292e10745938db880e9ac570780d43d2d22925509",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_FED_VISIT_JAN",
+      "name": "Fed Square visitor information January 2025",
+      "publisher": "Fed Square",
+      "original_url": "https://fedsquare.com/getting-here",
+      "archive_url": "https://web.archive.org/web/20250124091758id_/https://fedsquare.com/getting-here",
+      "evidence_date": "2025-01-24",
+      "evidence_date_basis": "Official page archived at 2025-01-24T09:17:58Z; actual replay content and final capture URL checked. Capture date is not a valid-from date.",
+      "source_kind": "archived_official_page",
+      "source_locator": "Opening Hours; Is Fed Square free?; Are there public toilets?",
+      "scope": "Public plaza; tenants and individual programmes have separate conditions.",
+      "archive_timestamp_utc": "2025-01-24T09:17:58Z",
+      "sha256_retrieved_content": "ca3102d53c954bc60b0d80d0ad703c9de6c65791c8042727bf73439c6626a112",
+      "retrieved_date": "2026-10-13"
+    },
+    {
+      "source_id": "HIST_HOSIER_SURFACE_FEB",
+      "name": "City of Melbourne street art guide 2025 capture",
+      "publisher": "City of Melbourne",
+      "original_url": "https://whatson.melbourne.vic.gov.au/article/street-art-guide-to-melbourne",
+      "archive_url": "https://web.archive.org/web/20250220142448id_/https://whatson.melbourne.vic.gov.au/article/street-art-guide-to-melbourne",
+      "evidence_date": "2025-02-20",
+      "evidence_date_basis": "Official page archived at 2025-02-20T14:24:48Z; actual replay content and final capture URL checked. Capture date is not a valid-from date.",
+      "source_kind": "archived_official_page",
+      "source_locator": "Hosier Lane paragraph",
+      "scope": "Cobbled surface description only; wheelchair/step-free access not assessed.",
+      "archive_timestamp_utc": "2025-02-20T14:24:48Z",
+      "sha256_retrieved_content": "f39ebc6ed59d8f2a974c23fdbf965ef4fbf7015ea8f34cc4f4670ecebc1e4098",
+      "retrieved_date": "2026-10-13"
+    }
+  ]
+}

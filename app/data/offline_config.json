@@ -1,0 +1,49 @@
+{
+  "bounds": {
+    "west": 144.925,
+    "south": -37.834,
+    "east": 144.991,
+    "north": -37.793
+  },
+  "historical_map_date_utc": "2025-12-31T23:59:59Z",
+  "heat_sigma_m": 90,
+  "heat_cutoff_m": 180,
+  "heat_color_cap": 2056.0,
+  "heat_color_cap_basis": "95th percentile of valid observed sensor-hour counts across all 58 source sensor records, constant across all dates/hours/scopes",
+  "heat_method": "Gaussian-distance-weighted local mean of observed sensor counts; no extrapolation beyond 180 metres from a valid sensor; no independent-visitor interpretation",
+  "heat_grid_width": 440,
+  "heat_grid_height": 345,
+  "sensor_records": 58,
+  "derived_rows": 508080,
+  "source_observations": 456860,
+  "observation_status_counts": {
+    "observed": 456812,
+    "missing_observation": 51152,
+    "ambiguous_repeated_local_hour": 58,
+    "nonexistent_local_hour": 58
+  },
+  "spatial_status_counts": {
+    "inside_derived_ftz": 34,
+    "boundary_review_required": 14,
+    "outside_derived_ftz": 10
+  },
+  "source_archive": "melbourne_ftz_2025_project_data.zip",
+  "raw_source_member": "melbourne_ftz_2025_project_data/raw/crowd_counts_2025.csv",
+  "raw_source_sha256": "ea2e44bf70df805822b27e8b8848bdac10d0d25600c3a9be916a33e0f859f9d1",
+  "derived_sha256": "6439698f568a6ccbe0f2f33359e64e16a6b6bfe25a4ce9618d06fecd04eec29c",
+  "sensor_source_sha256": "b1f7fb25bec3fdb64821d6523f7123581d263daa87622115d8f2258b5fc2dcf4",
+  "derived_schema": {
+    "location_id": "string",
+    "sensor_name": "string",
+    "latitude": "number",
+    "longitude": "number",
+    "spatial_status": "string",
+    "sensing_date": "date",
+    "hourday": "integer",
+    "pedestriancount": "integer or blank",
+    "raw_pedestriancount": "integer or blank",
+    "observation_status": "string",
+    "is_primary_sensor": "integer 0 or 1",
+    "source_id": "string"
+  }
+}

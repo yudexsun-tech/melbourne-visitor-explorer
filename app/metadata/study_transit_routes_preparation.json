@@ -1,0 +1,54 @@
+{
+  "source_article": "https://research-repository.rmit.edu.au/articles/dataset/Spatial_and_policy_urban_indicators_for_Naarm_Melbourne_Australia_/33158876/1",
+  "snapshot": "2025-10-03",
+  "branch_feeds": [
+    {
+      "branch": 3,
+      "mode": "tram",
+      "sha256": "0c8ae245a7825963f16aa0249b349b9e284b79167248c946ae38102b04eaf11f",
+      "routes": 22,
+      "patterns": 316,
+      "source_shapes": 316,
+      "trips_serving_original_stops": 60200,
+      "patterns_with_stop_headsign_overrides": 0
+    },
+    {
+      "branch": 2,
+      "mode": "train",
+      "sha256": "f4d796b926e6659674a2c931d2f89624627bc807ac633808c4ce6b2720c140db",
+      "routes": 17,
+      "patterns": 1833,
+      "source_shapes": 1713,
+      "trips_serving_original_stops": 26749,
+      "patterns_with_stop_headsign_overrides": 270
+    },
+    {
+      "branch": 1,
+      "mode": "regional_train",
+      "sha256": "d941a5351d70219e937d62af63bac16337ce29751d76a881aec6b34d2d73974a",
+      "routes": 13,
+      "patterns": 1500,
+      "source_shapes": 1500,
+      "trips_serving_original_stops": 6607,
+      "patterns_with_stop_headsign_overrides": 0
+    },
+    {
+      "branch": 10,
+      "mode": "interstate",
+      "sha256": "08f680f83cee9f5808045fae70052937e9752f5539090a4d60e750ffe79adfce",
+      "routes": 1,
+      "patterns": 15,
+      "source_shapes": 15,
+      "trips_serving_original_stops": 17,
+      "patterns_with_stop_headsign_overrides": 0
+    }
+  ],
+  "patterns": 3802,
+  "clipped_shapes": 158,
+  "clipped_points": 7012,
+  "expected_route_direction_stop_links": 904,
+  "missing_links": [],
+  "boundary_sha256": "12f93249937fde3c1a0db913dd8e11ad4c14134a2bef1d78d6c29047005eafec",
+  "clipping": "Ordered source segments intersected with the existing 42-vertex study polygon; separate crossings stay separate. No straight-line interpolation between stops.",
+  "direction": "Original direction_id, trip_headsign and stop_times.stop_headsign overrides at the hovered station, plus original ordered stops; never reverse route_long_name to infer a destination."
+}

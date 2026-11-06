@@ -1,0 +1,50 @@
+{
+  "source_archive": "melbourne_ftz_2025_project_data.zip",
+  "source_sha256": "83a5aa9971d2ef0e52d3da7291014f9d3f165845a62da863d43cca275536161e",
+  "new_external_data": false,
+  "files": [
+    {
+      "archive_member": "melbourne_ftz_2025_project_data/data/weather_for_crowd_join_2025.csv",
+      "path": "data/weather_for_crowd_join_2025.csv",
+      "sha256": "0abc14e92fdce41b5c192ee3e3bbd3bc8ae5d9b1b4e59566902e31247beecd34"
+    },
+    {
+      "archive_member": "melbourne_ftz_2025_project_data/data/transport_stops_2025.csv",
+      "path": "data/transport_stops_2025.csv",
+      "sha256": "3aa7087b740d6fb4d1e7a5a8fda5f9bbfe666d5feaf9c2a00d238b10c3251d92"
+    },
+    {
+      "archive_member": "melbourne_ftz_2025_project_data/data/transport_routes_2025.csv",
+      "path": "data/transport_routes_2025.csv",
+      "sha256": "f96fd97683b0cdbc26527bf7957d74bb72a4e21882472c46e8baa6abe2220d5b"
+    },
+    {
+      "archive_member": "melbourne_ftz_2025_project_data/data/stop_route_links_2025.csv",
+      "path": "data/stop_route_links_2025.csv",
+      "sha256": "e4e4307b7953618ee9f77857a5708e4e8dc8f2afda985cc5bf624652cfe4e5a7"
+    },
+    {
+      "archive_member": "melbourne_ftz_2025_project_data/docs/README_weather_2025.md",
+      "path": "docs/README_weather_2025.md",
+      "sha256": "7b49c17b15e280404c3d6805f88d6552c895b60158b69f123671ef37671d9919"
+    },
+    {
+      "archive_member": "melbourne_ftz_2025_project_data/docs/README_transport_facilities_2025.md",
+      "path": "docs/README_transport_facilities_2025.md",
+      "sha256": "7b784a6077476fa39d6c2b4f06bad76c1487a699791f1166e567b7efc1b6fc09"
+    },
+    {
+      "archive_member": "melbourne_ftz_2025_project_data/metadata/weather_rules_2025.csv",
+      "path": "metadata/weather_rules_2025.csv",
+      "sha256": "10d3907fa785a3eb6d1043d74d348cfe35f82a5c232a13c534d0a7c4795cbea3"
+    },
+    {
+      "archive_member": "melbourne_ftz_2025_project_data/data/attraction_transport_links_2025.csv",
+      "path": "data/attraction_transport_links_2025.csv",
+      "sha256": "258bbda73e19d474082699b0894392101411d683f5212f1587f928082706e751"
+    }
+  ],
+  "route_geometry_available": false,
+  "route_display": "All linked stops within the supplied study-area subset; no inferred line or stop order",
+  "nearby_filter": "Original attraction_transport_links_2025.csv: default within_300m = 1; 500/1000 m use distance_m <= selected radius. Rail platforms aggregated by source station ID. Initial transport layer hidden until attraction selected."
+}

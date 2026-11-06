@@ -1,0 +1,42 @@
+{
+  "prepared_date": "2026-10-29",
+  "width_assumption": "Use estimated local street-surface width directly as the effective width for visualization; no additional guessed obstacle deductions. Not a measured clear-width survey.",
+  "sensors": 68,
+  "source": "City of Melbourne Road segments, with surface type",
+  "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/road-segments-with-surface-type/",
+  "source_data_processed": "2026-09-10T00:33:07+00:00",
+  "license": "CC BY 4.0",
+  "source_request": {
+    "url": "https://data.melbourne.vic.gov.au/api/explore/v2.1/catalog/datasets/road-segments-with-surface-type/exports/geojson?where=intersects%28json_geometry%2C+geom%27POLYGON%28%28144.925+-37.834%2C144.991+-37.834%2C144.991+-37.793%2C144.925+-37.793%2C144.925+-37.834%29%29%27%29",
+    "bytes": 234021629
+  },
+  "method": "EPSG:32755; join neighboring Road Footway assets across <=0.2m seams; select the nearest connected surface; infer walking direction from the closest >=4m straight boundary segment within 8m (otherwise the 25m-local minimum rotated rectangle); take the median of five perpendicular transects at 1m intervals, rounded to 0.1m.",
+  "shared_laneways": {
+    "39": "Alfred Place",
+    "71": "Westwood Place"
+  },
+  "shared_laneway_method": "Use nearest Road Carriageway polygon as the shared walking corridor; avoids treating the narrow mapped edge strip as the whole laneway.",
+  "geometry_interpretation": "Broad paved open spaces retain their geometry-derived width; no invented standard width is substituted. Sensor counting coverage and historic obstacles are not separately modeled.",
+  "formula": "flow_ppmm = pooled_valid_hourly_mean / (60 * effective_width_m)",
+  "flow_unit": "passages/min/m",
+  "busy_threshold_ppmm": 18,
+  "threshold_reference": "https://content.tfl.gov.uk/pedestrian-comfort-guidance-technical-guide.pdf",
+  "threshold_interpretation": "Project binary display threshold based on the beginning of PCL C; not a safety threshold.",
+  "heat_interpolation": "Original additive Gaussian heat with width-adjusted flow weights; sigma=110m, cutoff=330m. Pixels express relative heat intensity, not physical flow or crowding grades.",
+  "transport": "Same linked-sensor flow rate and threshold; stop occupancy/capacity is not used.",
+  "attractions": "Original hourly counts, date pooling and 715/hour marker/detail rule unchanged.",
+  "files_sha256": {
+    "data/sensor_effective_widths.csv": "0cdde1989b6d8c465e5705bd2972d5fdb48819104b3054482537a8aa651a8eca",
+    "docs/street_width_evidence/geometry/width_cross_sections.geojson": "2598f72d2a3c0845d7a73cd7cd576ee5044325b17195f32e35424d1117ceb793"
+  },
+  "palette_relative_knots": [
+    0,
+    0.22,
+    0.42,
+    0.62,
+    0.82,
+    1
+  ],
+  "heat_scale": "max(1, 2 * p95(all finite sensor/profile/hour flow_ppmm)); fixed across filters/hours. t = 1 - exp(-field / scale).",
+  "heat_opacity": "min(0.68, t * 1.8); zero transparent, low activity fades."
+}

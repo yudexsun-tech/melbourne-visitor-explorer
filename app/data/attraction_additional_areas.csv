@@ -1,0 +1,2 @@
+attraction_id,reference_area_m2,floor_multiplier,usable_fraction_assumed,effective_area_m2,source_id
+ATTR005,2128.51461582587,1,0.5,1064.257307912935,COM_BUILDINGS_2020_CATHEDRAL

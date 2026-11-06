@@ -1,0 +1,112 @@
+{
+  "checked_date": "2026-10-31",
+  "timezone": "Australia/Melbourne",
+  "method": "Google Maps regular weekly hours checked 2026-10-31. User authorized cathedral and Block Arcade regular schedule corrections. The user explicitly excluded 2026 temporary closures from the 2024-2025 application.",
+  "entries": [
+    {
+      "attraction_id": "ATTR001",
+      "name": "State Library Victoria",
+      "source_url": "https://www.google.com/maps/place/State+Library+Victoria/@-37.8097255,144.9654504,17z/data=!4m5!3m4!1s0x6ad642cb954b1ce9:0xf187674ba9830e78!8m2!3d-37.8097255!4d144.9654504",
+      "google_maps_hours": "Daily 10:00-18:00",
+      "result": "matches_regular_schedule",
+      "note": ""
+    },
+    {
+      "attraction_id": "ATTR002",
+      "name": "The Ian Potter Centre: NGV Australia",
+      "source_url": "https://www.google.com/maps/place/The+Ian+Potter+Centre:+NGV+Australia/@-37.8170507,144.9697357,17z/data=!4m5!3m4!1s0x6ad642b68379f0d5:0xa5df201246b842d7!8m2!3d-37.8170507!4d144.9697357",
+      "google_maps_hours": "Daily 10:00-17:00",
+      "result": "matches_regular_schedule",
+      "note": ""
+    },
+    {
+      "attraction_id": "ATTR003",
+      "name": "ACMI",
+      "source_url": "https://www.google.com/maps/place/ACMI/@-37.8175974,144.9686881,17z/data=!4m5!3m4!1s0x6ad642b6e9fcc44f:0x1300e52d509118a4!8m2!3d-37.8175974!4d144.9686881",
+      "google_maps_hours": "Daily 10:00-17:00",
+      "result": "matches_regular_schedule",
+      "note": "ACMI main venue hours, not takeaway hours."
+    },
+    {
+      "attraction_id": "ATTR004",
+      "name": "Immigration Museum",
+      "source_url": "https://www.google.com/maps/place/Immigration+Museum/@-37.8192442,144.9604547,17z/data=!4m5!3m4!1s0x6ad642b68379f0d5:0x8b6d7677e1351223!8m2!3d-37.8192442!4d144.9604547",
+      "google_maps_hours": "Daily 10:00-17:00",
+      "result": "matches_regular_schedule",
+      "note": ""
+    },
+    {
+      "attraction_id": "ATTR005",
+      "name": "St Paul's Cathedral, Melbourne",
+      "source_url": "https://www.google.com/maps/place/St+Paul%27s+Cathedral,+Melbourne/@-37.817029,144.967687,17z/data=!4m5!3m4!1s0x6ad642b686cb506d:0x629a2c4f6dbb8657!8m2!3d-37.817029!4d144.967687",
+      "google_maps_hours": "Monday-Friday 10:00-18:00; Saturday 10:00-17:00; Sunday 08:00-18:00",
+      "result": "updated_as_requested",
+      "note": "Previously Monday-Saturday 10:00-17:00 and Sunday numeric hours unknown. Visitor text retains the sightseeing restriction during services."
+    },
+    {
+      "attraction_id": "ATTR006",
+      "name": "Queen Victoria Market",
+      "source_url": "https://www.google.com/maps/place/Queen+Victoria+Market/@-37.8075798,144.956785,17z/data=!4m5!3m4!1s0x6ad65d34379057b1:0xf0456760532d450!8m2!3d-37.8075798!4d144.956785",
+      "google_maps_hours": "Monday-Wednesday closed; Thursday-Friday 06:00-15:00; Saturday 06:00-16:00; Sunday 09:00-16:00",
+      "result": "out_of_period_notice_not_applied",
+      "note": "The visible Tuesday closure is a temporary 2026 notice and is outside the 2024-2025 analysis period. No exception, visitor-text change, weekly schedule change or threshold change is applied. Ordinary Tuesday 06:00-15:00 remains.",
+      "corroborating_source_url": "https://qvm.com.au/"
+    },
+    {
+      "attraction_id": "ATTR007",
+      "name": "Royal Arcade",
+      "source_url": "https://www.google.com/maps/place/Royal+Arcade/@-37.8145388,144.9640625,17z/data=!4m5!3m4!1s0x6ad642b5a08ba679:0x92c687dfdb46896f!8m2!3d-37.8145388!4d144.9640625",
+      "google_maps_hours": "Monday-Thursday 07:00-19:00; Friday 07:00-20:30; Saturday 08:00-19:00; Sunday 09:00-19:00",
+      "result": "matches_regular_schedule",
+      "note": ""
+    },
+    {
+      "attraction_id": "ATTR008",
+      "name": "The Block Arcade",
+      "source_url": "https://www.google.com/maps/place/The+Block+Arcade/@-37.8155205,144.9645141,17z/data=!4m5!3m4!1s0x6ad642b4f8c05d67:0xb44d947af3e9fcba!8m2!3d-37.8155205!4d144.9645141",
+      "google_maps_hours": "Monday-Thursday 08:00-18:00; Friday 08:00-20:00; Saturday 08:00-18:00; Sunday 09:00-18:00",
+      "result": "updated_as_requested",
+      "note": "Saturday and Sunday now close at 18:00. Visitor text, map, weekly grid and this attraction's thresholds updated together."
+    },
+    {
+      "attraction_id": "ATTR009",
+      "name": "Bourke Street Mall",
+      "source_url": "https://www.google.com/maps/place/Bourke+Street+Mall/@-37.8137685,144.9644379,17z/data=!4m5!3m4!1s0x6ad642b584c18be7:0x1a3bae189d065b99!8m2!3d-37.8137685!4d144.9644379",
+      "google_maps_hours": "Every day open 24 hours",
+      "result": "matches_regular_schedule",
+      "note": ""
+    },
+    {
+      "attraction_id": "ATTR010",
+      "name": "Chinatown Melbourne",
+      "source_url": "https://www.google.com/maps/place/Chinatown+Melbourne/@-37.812006,144.9668036,17z/data=!4m5!3m4!1s0x6ad642c987103873:0xf646058e3f60bff6!8m2!3d-37.812006!4d144.9668036",
+      "google_maps_hours": "Every day open 24 hours",
+      "result": "matches_regular_schedule",
+      "note": ""
+    },
+    {
+      "attraction_id": "ATTR011",
+      "name": "Flinders Street Station exterior",
+      "source_url": "https://www.google.com/maps/place/Flinders+Street/@-37.8182711,144.9670618,17z/data=!4m5!3m4!1s0x6ad642b6af832249:0xe39e415e49a7c44e!8m2!3d-37.8182711!4d144.9670618",
+      "google_maps_hours": null,
+      "result": "no_weekly_hours_listed",
+      "note": "Inspected main railway-station Maps entry. App attraction scope is exterior and public area, not platform access or train service times. Existing exterior schedule unchanged."
+    },
+    {
+      "attraction_id": "ATTR012",
+      "name": "Fed Square",
+      "source_url": "https://www.google.com/maps/place/Fed+Square/@-37.8179789,144.9690576,17z/data=!4m5!3m4!1s0x6ad642b6e9fcc44f:0x38e74745ead60eab!8m2!3d-37.8179789!4d144.9690576",
+      "google_maps_hours": "Every day open 24 hours",
+      "result": "matches_regular_schedule",
+      "note": ""
+    },
+    {
+      "attraction_id": "ATTR016",
+      "name": "Hosier Lane",
+      "source_url": "https://www.google.com/maps/place/Hosier+Ln,+Melbourne+VIC+3000/@-37.8165272,144.9691574,17z/data=!4m5!3m4!1s0x6ad642b6521c6a15:0xa92699044c913e0f!8m2!3d-37.8165272!4d144.9691574",
+      "google_maps_hours": null,
+      "result": "no_weekly_hours_listed",
+      "note": "Google Maps street entry has no weekly opening-hours field. Existing public-laneway schedule unchanged."
+    }
+  ]
+}

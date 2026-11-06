@@ -1,0 +1,42 @@
+[
+  {
+    "longitude": 144.9644426,
+    "latitude": -37.8138383,
+    "osm_id": "4936370204",
+    "code": "2721",
+    "fclass": "attraction",
+    "name": "Bourke Street Mall"
+  },
+  {
+    "longitude": 144.9690782,
+    "latitude": -37.8163287,
+    "osm_id": "4936374477",
+    "code": "2721",
+    "fclass": "attraction",
+    "name": "Hosier Lane"
+  },
+  {
+    "longitude": 144.9653949,
+    "latitude": -37.8125015,
+    "osm_id": "9298174576",
+    "code": "2725",
+    "fclass": "artwork",
+    "name": "Chinatown Entrance Arch"
+  },
+  {
+    "longitude": 144.967182,
+    "latitude": -37.8177588,
+    "osm_id": "10635926320",
+    "code": "2701",
+    "fclass": "tourist_info",
+    "name": "Flinders Street Clocks"
+  },
+  {
+    "longitude": 144.9576513,
+    "latitude": -37.8078466,
+    "osm_id": "11017168508",
+    "code": "2701",
+    "fclass": "tourist_info",
+    "name": "Queen Victoria Market Visitor Hub"
+  }
+]

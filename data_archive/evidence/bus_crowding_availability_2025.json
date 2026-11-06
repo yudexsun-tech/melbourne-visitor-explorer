@@ -1,0 +1,82 @@
+{
+  "research_date": "2026-10-24",
+  "requested_data": "Calendar2025FTZ bus passengers/crowding by stop, route, trip or hour",
+  "historical_stop_route_hourly_bus_occupancy_status": "not_found_in_reviewed_public_sources",
+  "absence_interpretation": "Bounded research result, not proof that government/operators hold no such data.",
+  "sources_reviewed": [
+    {
+      "url": "https://opendata.transport.vic.gov.au/dataset/monthly-public-transport-patronage-by-mode",
+      "result": "Actual2025mode-wide monthly boarding totals downloaded; useful only as network reference.",
+      "licence": "CC-BY4.0",
+      "web_ref": "turn198view0"
+    },
+    {
+      "url": "https://opendata.transport.vic.gov.au/dataset/monthly-average-patronage-by-day-type-and-by-mode",
+      "result": "Actual2025month/weekday/day-type averages downloaded; not an hourly or location-specific observation.",
+      "licence": "CC-BY4.0",
+      "web_ref": "turn189view1"
+    },
+    {
+      "url": "https://opendata.transport.vic.gov.au/dataset/gtfs-realtime",
+      "result": "Official real-time vehicle-position API exists, and bus OpenAPI describes live location and occupancy. No2025historical archive established; API_keyrequired. Do not use a current feed as calendar2025data.",
+      "licence": "CC-BY4.0",
+      "web_ref": "turn198view1"
+    },
+    {
+      "url": "https://opendata.transport.vic.gov.au/dataset/gtfs-realtime/resource/19e18563-677f-4a21-b3a0-404e0cfa20e2",
+      "result": "Downloaded official2136-byte OpenAPI; onlyGET /vehicle-positions advertised, no historical-date parameter. Specification is not passenger observations.",
+      "download_file": "bus_vehicle_positions.openapi.json",
+      "raw_sha256": "31f624b28356c85396979d34e61563f4e1ac24eada2213a11ce7951efc04d85f"
+    },
+    {
+      "url": "https://www.vic.gov.au/passenger-load-surveys",
+      "result": "Publicload surveys page lists train and tram only; reviewed reports are not a2025bus dataset.",
+      "web_ref": "turn193view3"
+    },
+    {
+      "url": "https://www.vic.gov.au/transport-patronage",
+      "result": "Publishedcatalogue directs to mode-wide monthly totals and train station counts, notbusstop/hour datasets.",
+      "web_ref": "turn193view2"
+    },
+    {
+      "url": "https://maps.philipmallis.com/victorian-bus-stop-patronage/",
+      "result": "Secondary olderreference uses2017-2019busstop data; excluded from2025values.",
+      "web_ref": "turn189view3"
+    }
+  ],
+  "catalogue_checks": {
+    "bus_patronage_query": {
+      "endpoint": "https://opendata.transport.vic.gov.au/api/3/action/package_search?q=bus%20patronage&rows=100",
+      "matching_dataset_names": [
+        "monthly-public-transport-patronage-by-mode",
+        "monthly-average-patronage-by-day-type-and-by-mode"
+      ]
+    },
+    "patronage_query": {
+      "endpoint": "https://opendata.transport.vic.gov.au/api/3/action/package_search?q=patronage&rows=100",
+      "matching_dataset_names": [
+        "monthly-public-transport-patronage-by-mode",
+        "annual-metropolitan-train-station-patronage-station-entries",
+        "annual-regional-train-station-patronage-station-entries",
+        "monthly-average-patronage-by-day-type-and-by-mode",
+        "train-service-passenger-counts"
+      ]
+    }
+  },
+  "usable_deliverables": [
+    "bus_network_reference_tables.json",
+    "monthly_public_transport_patronage_by_mode.csv",
+    "monthly_average_patronage_by_day_type_and_by_mode.csv"
+  ],
+  "forbidden_interpretations": [
+    "Do not label mode-wide monthly boardings as FTZ passenger totals.",
+    "Do not allocate boardings evenly or proportionally to stops/routes without a validated model.",
+    "Do not infer simultaneous onboard crowding from boardings alone; alighting, capacity and vehicle/trip context needed.",
+    "Do not apply pedestrianQuiet/Crowded715threshold to bus passenger counts.",
+    "A nearby-street sensor association measures street footfall near a bus stop; not waiting passengers, boardings or onboard occupancy."
+  ],
+  "remaining_options": [
+    "Use clearly labelled street-footfall context near selected bus stops, if root supplies a defensible association.",
+    "Request2025historical APC/boarding/alighting/occupancy records from DTP/operators via theirdata-request process; no request sent bythis agent."
+  ]
+}

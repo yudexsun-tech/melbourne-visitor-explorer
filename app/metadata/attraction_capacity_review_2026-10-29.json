@@ -1,0 +1,432 @@
+{
+  "title": "墨尔本 13 个景点容量公开资料核查",
+  "checked_date": "2026-10-29",
+  "scope": "Search of official venue/operator/city/state tourism sources; no operator enquiry sent.",
+  "conclusion": "7 attractions have public capacity-related figures, mostly event/room/seating configurations. No comparable verified whole-attraction design occupancy series for all 13.",
+  "metric_warning": "Street sensor passages per hour are not simultaneous occupants of a venue. These capacity records are not used in the app classification.",
+  "records": [
+    {
+      "attraction_id": "ATTR001",
+      "name": "State Library Victoria",
+      "name_zh": "维多利亚州立图书馆",
+      "app_visit_scope": "Public visitor spaces in the library; the front lawn is excluded from this attraction record.",
+      "scope_zh": "馆内公共参观空间；不包括门前草坪",
+      "research_status": "partial_event_capacity",
+      "summary_zh": "La Trobe Reading Room：站立酒会 520 人。",
+      "capacity_records": [
+        {
+          "space": "La Trobe Reading Room",
+          "persons": 520,
+          "configuration": "cocktail",
+          "approximate": false,
+          "source_publication_date": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "State Library Victoria · La Trobe Reading Room",
+          "url": "https://venues.slv.vic.gov.au/venue/la-trobe-reading-room/"
+        }
+      ],
+      "limitations_zh": "单间阅览室的活动租赁人数，不能代替整座图书馆或日常阅读空间容量。",
+      "whole_attraction_design_capacity": null,
+      "usable_as_current_footfall_denominator": false,
+      "historical_2024_2025_validity": "not_verified",
+      "checked_date": "2026-10-29"
+    },
+    {
+      "attraction_id": "ATTR002",
+      "name": "The Ian Potter Centre: NGV Australia",
+      "name_zh": "NGV Australia / Ian Potter Centre",
+      "app_visit_scope": "NGV Australia at Federation Square; NGV International on St Kilda Road is excluded.",
+      "scope_zh": "Federation Square 的 NGV Australia；不包括 St Kilda Road 的 NGV International",
+      "research_status": "not_found",
+      "summary_zh": "未找到对应馆舍公开、可核实的整体设计容纳上限。",
+      "capacity_records": [],
+      "sources": [
+        {
+          "title": "NGV · Private Functions",
+          "url": "https://www.ngv.vic.gov.au/functions/"
+        },
+        {
+          "title": "City of Melbourne · Ian Potter Centre",
+          "url": "https://whatson.melbourne.vic.gov.au/things-to-do/ian-potter-centre-ngv-australia"
+        }
+      ],
+      "limitations_zh": "官方现行租赁页指向 NGV International。Gandel Hall / Great Hall、Monash 的 Ian Potter Centre、附近餐饮场所的容量均不适用于本景点。",
+      "whole_attraction_design_capacity": null,
+      "usable_as_current_footfall_denominator": false,
+      "historical_2024_2025_validity": "not_verified",
+      "checked_date": "2026-10-29"
+    },
+    {
+      "attraction_id": "ATTR003",
+      "name": "ACMI",
+      "name_zh": "ACMI",
+      "app_visit_scope": "ACMI public exhibition spaces; individual exhibitions and events require separate checking.",
+      "scope_zh": "公共展览空间；具体展览与活动空间需单独界定",
+      "research_status": "partial_event_capacity",
+      "summary_zh": "Underground Gallery：站立 700 人／坐席 400 人；Lightwell：站立 450 人。",
+      "capacity_records": [
+        {
+          "space": "Underground Gallery",
+          "persons": 700,
+          "configuration": "standing",
+          "approximate": false,
+          "source_publication_date": null
+        },
+        {
+          "space": "Underground Gallery",
+          "persons": 400,
+          "configuration": "seated",
+          "approximate": false,
+          "source_publication_date": null
+        },
+        {
+          "space": "Lightwell",
+          "persons": 450,
+          "configuration": "standing",
+          "approximate": false,
+          "source_publication_date": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "ACMI · Venue hire",
+          "url": "https://www.acmi.net.au/about/venue-hire/"
+        }
+      ],
+      "limitations_zh": "均为指定空间的活动布置；展览装置会改变可用面积。不得把各空间上限简单相加当作全馆上限。",
+      "whole_attraction_design_capacity": null,
+      "usable_as_current_footfall_denominator": false,
+      "historical_2024_2025_validity": "not_verified",
+      "checked_date": "2026-10-29"
+    },
+    {
+      "attraction_id": "ATTR004",
+      "name": "Immigration Museum",
+      "name_zh": "移民博物馆",
+      "app_visit_scope": "Immigration Museum at 400 Flinders Street.",
+      "scope_zh": "400 Flinders Street 的博物馆公共空间",
+      "research_status": "partial_event_capacity",
+      "summary_zh": "Long Room：酒会 300、宴会 200、剧院式 150 人；庭院：酒会 750、宴会 150 人。",
+      "capacity_records": [
+        {
+          "space": "Long Room",
+          "persons": 300,
+          "configuration": "cocktail",
+          "approximate": false,
+          "source_publication_date": null
+        },
+        {
+          "space": "Long Room",
+          "persons": 200,
+          "configuration": "banquet",
+          "approximate": false,
+          "source_publication_date": null
+        },
+        {
+          "space": "Long Room",
+          "persons": 150,
+          "configuration": "theatre",
+          "approximate": false,
+          "source_publication_date": null
+        },
+        {
+          "space": "Courtyard",
+          "persons": 750,
+          "configuration": "cocktail",
+          "approximate": false,
+          "source_publication_date": null
+        },
+        {
+          "space": "Courtyard",
+          "persons": 150,
+          "configuration": "banquet",
+          "approximate": false,
+          "source_publication_date": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "Museums Victoria · Immigration Museum venue hire",
+          "url": "https://museumsvictoria.com.au/venues-and-events/immigration-museum/"
+        }
+      ],
+      "limitations_zh": "室内 Long Room 与室外庭院是不同空间。不能将庭院数字当作室内展厅或整馆容量，也不能直接相加。",
+      "whole_attraction_design_capacity": null,
+      "usable_as_current_footfall_denominator": false,
+      "historical_2024_2025_validity": "not_verified",
+      "checked_date": "2026-10-29"
+    },
+    {
+      "attraction_id": "ATTR005",
+      "name": "St Paul's Cathedral",
+      "name_zh": "圣保罗大教堂",
+      "app_visit_scope": "Primarily the cathedral interior; worship and event times require separate checking.",
+      "scope_zh": "教堂主要室内参观空间",
+      "research_status": "seating_capacity",
+      "summary_zh": "固定长椅座位 900；加椅约 1,000 人。",
+      "capacity_records": [
+        {
+          "space": "Cathedral",
+          "persons": 900,
+          "configuration": "fixed pew seating",
+          "approximate": false,
+          "source_publication_date": null
+        },
+        {
+          "space": "Cathedral",
+          "persons": 1000,
+          "configuration": "seating including extra chairs",
+          "approximate": true,
+          "source_publication_date": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "St Paul’s Cathedral · Venue Hire",
+          "url": "https://cathedral.org.au/contact/venue-hire/"
+        }
+      ],
+      "limitations_zh": "官方场地租赁页公布的坐席配置，范围接近主教堂，但并非已核验的消防占用人数或日常站立参观舒适容量。",
+      "whole_attraction_design_capacity": null,
+      "usable_as_current_footfall_denominator": false,
+      "historical_2024_2025_validity": "not_verified",
+      "checked_date": "2026-10-29"
+    },
+    {
+      "attraction_id": "ATTR006",
+      "name": "Queen Victoria Market",
+      "name_zh": "维多利亚女王市场",
+      "app_visit_scope": "Public market spaces and covered market passages; surrounding streets are not all included.",
+      "scope_zh": "公共市场与有顶通道",
+      "research_status": "partial_event_capacity",
+      "summary_zh": "The Sheds：酒会 10,000 人／宴会 3,000 人。",
+      "capacity_records": [
+        {
+          "space": "The Sheds",
+          "persons": 10000,
+          "configuration": "cocktail after traders clear",
+          "approximate": false,
+          "source_publication_date": null
+        },
+        {
+          "space": "The Sheds",
+          "persons": 3000,
+          "configuration": "banquet after traders clear",
+          "approximate": false,
+          "source_publication_date": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "Queen Victoria Market · The Sheds",
+          "url": "https://qvm.com.au/venue-hire/the-sheds/"
+        }
+      ],
+      "limitations_zh": "数字来自商户收摊后的活动场地租赁条件；日常营业时摊位与通道占用不同，不能当作购物市场的通常承载力。",
+      "whole_attraction_design_capacity": null,
+      "usable_as_current_footfall_denominator": false,
+      "historical_2024_2025_validity": "not_verified",
+      "checked_date": "2026-10-29"
+    },
+    {
+      "attraction_id": "ATTR007",
+      "name": "Royal Arcade",
+      "name_zh": "Royal Arcade",
+      "app_visit_scope": "Public arcade passage; shops are not separate attractions.",
+      "scope_zh": "公共拱廊通道；商店内部不单独纳入",
+      "research_status": "not_found",
+      "summary_zh": "未找到公共通道整体的官方人数上限。",
+      "capacity_records": [],
+      "sources": [
+        {
+          "title": "Royal Arcade · Official website",
+          "url": "https://royalarcade.com.au/"
+        },
+        {
+          "title": "City of Melbourne · Royal Arcade",
+          "url": "https://whatson.melbourne.vic.gov.au/things-to-do/royal-arcade"
+        }
+      ],
+      "limitations_zh": "已检索管理方网站与官方旅游介绍。导览团人数、店铺座位和相似名称的剧院容量均不能替代拱廊容量。",
+      "whole_attraction_design_capacity": null,
+      "usable_as_current_footfall_denominator": false,
+      "historical_2024_2025_validity": "not_verified",
+      "checked_date": "2026-10-29"
+    },
+    {
+      "attraction_id": "ATTR008",
+      "name": "The Block Arcade",
+      "name_zh": "Block Arcade",
+      "app_visit_scope": "Public arcade passage; shops are not separate attractions.",
+      "scope_zh": "公共拱廊通道",
+      "research_status": "partial_event_capacity",
+      "summary_zh": "Collins Street 穹顶下活动空间：坐席 150／站立 250 人。",
+      "capacity_records": [
+        {
+          "space": "Collins Street dome event space",
+          "persons": 150,
+          "configuration": "seated after business hours",
+          "approximate": false,
+          "source_publication_date": null
+        },
+        {
+          "space": "Collins Street dome event space",
+          "persons": 250,
+          "configuration": "standing after business hours",
+          "approximate": false,
+          "source_publication_date": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Block Arcade · Events",
+          "url": "https://theblock.com.au/events/"
+        }
+      ],
+      "limitations_zh": "官方说明活动安排在营业时间之后。该活动空间人数不代表全拱廊日常购物通道上限。",
+      "whole_attraction_design_capacity": null,
+      "usable_as_current_footfall_denominator": false,
+      "historical_2024_2025_validity": "not_verified",
+      "checked_date": "2026-10-29"
+    },
+    {
+      "attraction_id": "ATTR009",
+      "name": "Bourke Street Mall",
+      "name_zh": "Bourke Street Mall",
+      "app_visit_scope": "Bourke Street between Swanston and Elizabeth Streets; department-store interiors are excluded.",
+      "scope_zh": "Swanston Street 至 Elizabeth Street；不含百货商场内部",
+      "research_status": "not_found",
+      "summary_zh": "未找到对应户外步行区公开核定人数。",
+      "capacity_records": [],
+      "sources": [
+        {
+          "title": "Visit Melbourne · Bourke Street Mall",
+          "url": "https://www.visitmelbourne.com/Regions/Melbourne/Destinations/Bourke-Street-Mall/"
+        }
+      ],
+      "limitations_zh": "这里同时通行电车与行人，需明确可用行人面积、轨道与疏散通道。周边酒店、商场、餐饮座位和整个商业片区统计均不适用。",
+      "whole_attraction_design_capacity": null,
+      "usable_as_current_footfall_denominator": false,
+      "historical_2024_2025_validity": "not_verified",
+      "checked_date": "2026-10-29"
+    },
+    {
+      "attraction_id": "ATTR010",
+      "name": "Chinatown (Little Bourke Street)",
+      "name_zh": "唐人街 / Little Bourke Street",
+      "app_visit_scope": "Little Bourke Street between Swanston and Exhibition Streets; restaurants are not separate attractions.",
+      "scope_zh": "本软件记录的 Swanston Street 至 Exhibition Street 街段",
+      "research_status": "not_found",
+      "summary_zh": "未找到该街段整体的官方容纳上限。",
+      "capacity_records": [],
+      "sources": [
+        {
+          "title": "City of Melbourne · Chinatown",
+          "url": "https://whatson.melbourne.vic.gov.au/things-to-do/chinatown"
+        },
+        {
+          "title": "Chinatown Melbourne · About Chinatown",
+          "url": "https://chinatownmelbourne.com.au/about-chinatown/"
+        }
+      ],
+      "limitations_zh": "餐厅和博物馆容量不等于街道容量；节庆封路后的活动范围也可能不同。宣传中的 Chinatown 地理范围较软件街段更广，必须先统一边界。",
+      "whole_attraction_design_capacity": null,
+      "usable_as_current_footfall_denominator": false,
+      "historical_2024_2025_validity": "not_verified",
+      "checked_date": "2026-10-29"
+    },
+    {
+      "attraction_id": "ATTR011",
+      "name": "Flinders Street Railway Station - exterior",
+      "name_zh": "Flinders Street Station 外部",
+      "app_visit_scope": "Exterior and public area near the main entrance and clocks at Flinders and Swanston Streets; paid platforms are excluded.",
+      "scope_zh": "钟楼主入口周边公共外部；不含付费区和站台",
+      "research_status": "not_found",
+      "summary_zh": "未找到该入口外部公共空间的官方人数上限。",
+      "capacity_records": [],
+      "sources": [
+        {
+          "title": "Victoria Premier · CBD security works (2019-01-04)",
+          "url": "https://www.premier.vic.gov.au/next-stage-cbd-security-works-get-underway"
+        },
+        {
+          "title": "City of Melbourne · Flinders Street Railway Station",
+          "url": "https://whatson.melbourne.vic.gov.au/things-to-do/flinders-street-railway-station"
+        }
+      ],
+      "limitations_zh": "官方提到站前空间扩建 130 平方米，这是扩建面积而非现有总面积或人数容量；站内客流与站台容量均不适用于本记录。",
+      "whole_attraction_design_capacity": null,
+      "usable_as_current_footfall_denominator": false,
+      "historical_2024_2025_validity": "not_verified",
+      "checked_date": "2026-10-29"
+    },
+    {
+      "attraction_id": "ATTR012",
+      "name": "Federation Square - public plaza",
+      "name_zh": "联邦广场公共广场",
+      "app_visit_scope": "Federation Square public plaza; ACMI and NGV Australia are separate attractions, so their interior facilities should not be double-counted.",
+      "scope_zh": "室外主广场；ACMI 与 NGV Australia 另列",
+      "research_status": "event_capacity_conflict",
+      "summary_zh": "现行 Main Square 页为 10,000 人；2022-06-30 官方文章为最多 8,000 人。",
+      "capacity_records": [
+        {
+          "space": "Main Square",
+          "persons": 10000,
+          "configuration": "outdoor event; current venue page",
+          "approximate": false,
+          "source_publication_date": null
+        },
+        {
+          "space": "Main Square",
+          "persons": 8000,
+          "configuration": "outdoor event; older article",
+          "approximate": false,
+          "source_publication_date": "2022-06-30"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fed Square · Main Square",
+          "url": "https://fedsquare.com/venues/main-square"
+        },
+        {
+          "title": "Fed Square · Venue hire article, 2022-06-30",
+          "url": "https://fedsquare.com/news/for-the-best-in-venue-hire-melbourne-thats-fed-square"
+        }
+      ],
+      "limitations_zh": "范围最接近软件广场记录，但两份官方资料不一致，未找到足以确认差异原因与适用年份的证据。不能擅自认定 2024/2025 应用哪一数值；活动上限也不是舒适程度阈值。",
+      "whole_attraction_design_capacity": null,
+      "usable_as_current_footfall_denominator": false,
+      "historical_2024_2025_validity": "not_verified",
+      "checked_date": "2026-10-29"
+    },
+    {
+      "attraction_id": "ATTR016",
+      "name": "Hosier Lane",
+      "name_zh": "Hosier Lane",
+      "app_visit_scope": "Hosier Lane between Flinders Street and Flinders Lane, primarily for outdoor street-art viewing.",
+      "scope_zh": "Flinders Street 至 Flinders Lane 的户外涂鸦街段",
+      "research_status": "not_found",
+      "summary_zh": "未找到该户外街段公开核定人数。",
+      "capacity_records": [],
+      "sources": [
+        {
+          "title": "City of Melbourne · Street art walk",
+          "url": "https://whatson.melbourne.vic.gov.au/things-to-do/walks/street-art"
+        },
+        {
+          "title": "City of Melbourne · Street art policy 2026",
+          "url": "https://participate.melbourne.vic.gov.au/graffiti-management-policy-2026/street-art"
+        }
+      ],
+      "limitations_zh": "年访客量不能作为同时在场容量；相邻餐厅、Forum Theatre 或伦敦同名街道的容量均排除。通道、门口与应急出口需按实际范围保留。",
+      "whole_attraction_design_capacity": null,
+      "usable_as_current_footfall_denominator": false,
+      "historical_2024_2025_validity": "not_verified",
+      "checked_date": "2026-10-29"
+    }
+  ]
+}

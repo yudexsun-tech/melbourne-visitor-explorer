@@ -1,0 +1,55 @@
+{
+  "checked_date": "2026-10-30",
+  "temporal_basis": "current_visitor_information_checked_2026-10-30",
+  "scope": "Ordinary self-guided market visits and public arcade browsing.",
+  "updates": [
+    {
+      "attraction_id": "ATTR006",
+      "field": "booking_notes_en",
+      "display": "No booking needed for self-guided visits.",
+      "basis": "Official educational visit page explicitly permits self-guided visits without booking; applied to ordinary self-guided market browsing. Guided tours are separate.",
+      "source_urls": [
+        "https://qvm.com.au/education/",
+        "https://qvm.com.au/visit-us/"
+      ]
+    },
+    {
+      "attraction_id": "ATTR007",
+      "field": "admission_notes_en",
+      "display": "Free to visit.",
+      "basis": "Visit Victoria official Top 10 free things to do lists both arcades under item 9.",
+      "source_urls": [
+        "https://www.visitvictoria.com/regions/melbourne/see-and-do/10-free-things-to-do-in-melbourne"
+      ]
+    },
+    {
+      "attraction_id": "ATTR008",
+      "field": "admission_notes_en",
+      "display": "Free to visit.",
+      "basis": "Visit Victoria official Top 10 free things to do lists both arcades under item 9.",
+      "source_urls": [
+        "https://www.visitvictoria.com/regions/melbourne/see-and-do/10-free-things-to-do-in-melbourne"
+      ]
+    },
+    {
+      "attraction_id": "ATTR007",
+      "field": "booking_notes_en",
+      "display": "Walk in during opening hours.",
+      "basis": "Editorial inference for ordinary public arcade browsing from official open shopping passage descriptions and published hours; no explicit universal no-booking policy found.",
+      "source_urls": [
+        "https://royalarcade.com.au/",
+        "https://whatson.melbourne.vic.gov.au/things-to-do/royal-arcade"
+      ]
+    },
+    {
+      "attraction_id": "ATTR008",
+      "field": "booking_notes_en",
+      "display": "Walk in during opening hours.",
+      "basis": "Editorial inference for ordinary public arcade browsing from official open shopping passage descriptions and published hours; no explicit universal no-booking policy found.",
+      "source_urls": [
+        "https://theblock.com.au/",
+        "https://theblock.com.au/contact/"
+      ]
+    }
+  ]
+}

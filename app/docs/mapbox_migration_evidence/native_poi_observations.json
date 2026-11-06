@@ -1,0 +1,175 @@
+{
+  "verified_date": "2026-11-01",
+  "features": [
+    {
+      "id": 1134340711,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95731472969055,
+          -37.807344851483265
+        ]
+      },
+      "properties": {
+        "name": "Queen Victoria Market",
+        "class": "food_and_drink_stores",
+        "maki": "grocery",
+        "group": "poi"
+      },
+      "target": {
+        "featuresetId": "poi",
+        "importId": "basemap"
+      },
+      "namespace": "poi-A"
+    },
+    {
+      "id": 228204581,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96549546718597,
+          -37.80969707067399
+        ]
+      },
+      "properties": {
+        "name": "State Library Victoria",
+        "class": "public_facilities",
+        "maki": "library",
+        "group": "poi"
+      },
+      "target": {
+        "featuresetId": "poi",
+        "importId": "basemap"
+      },
+      "namespace": "poi-A"
+    },
+    {
+      "id": 142512431,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96039927005768,
+          -37.81912638624858
+        ]
+      },
+      "properties": {
+        "name": "Immigration Museum",
+        "class": "arts_and_entertainment",
+        "maki": "museum",
+        "group": "poi"
+      },
+      "target": {
+        "featuresetId": "poi",
+        "importId": "basemap"
+      },
+      "namespace": "poi-A"
+    },
+    {
+      "id": 131276441,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96761441230774,
+          -37.81679671569215
+        ]
+      },
+      "properties": {
+        "name": "Saint Paul’s Cathedral",
+        "class": "religion",
+        "maki": "religious-christian",
+        "group": "poi"
+      },
+      "target": {
+        "featuresetId": "poi",
+        "importId": "basemap"
+      },
+      "namespace": "poi-A"
+    },
+    {
+      "id": 49363702040,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96444270014763,
+          -37.81383870152721
+        ]
+      },
+      "properties": {
+        "name": "Bourke Street Mall",
+        "class": "arts_and_entertainment",
+        "maki": "attraction",
+        "group": "poi"
+      },
+      "target": {
+        "featuresetId": "poi",
+        "importId": "basemap"
+      },
+      "namespace": "poi-A"
+    },
+    {
+      "id": 468656401,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.964060485363,
+          -37.81457927565115
+        ]
+      },
+      "properties": {
+        "name": "Royal Arcade",
+        "class": "building",
+        "maki": "marker",
+        "group": "poi"
+      },
+      "target": {
+        "featuresetId": "poi",
+        "importId": "basemap"
+      },
+      "namespace": "poi-A"
+    },
+    {
+      "id": 132936873710,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96717989444733,
+          -37.81775973985724
+        ]
+      },
+      "properties": {
+        "name": "Flinders Street",
+        "transit_mode": "metro_rail",
+        "transit_stop_type": "entrance",
+        "transit_network": "entrance",
+        "group": "transit"
+      },
+      "target": {
+        "featuresetId": "poi",
+        "importId": "basemap"
+      },
+      "namespace": "poi-B"
+    },
+    {
+      "id": 467514531,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96443331241608,
+          -37.815595301596254
+        ]
+      },
+      "properties": {
+        "name": "Block Arcade",
+        "class": "store_like",
+        "maki": "shop",
+        "group": "poi"
+      },
+      "target": {
+        "featuresetId": "poi",
+        "importId": "basemap"
+      },
+      "namespace": "poi-A"
+    }
+  ],
+  "additional_evidence": "poi_alignment_validation.json captures live matches for ACMI, Ian Potter Centre and Federation Square."
+}

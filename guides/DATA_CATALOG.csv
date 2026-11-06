@@ -1,0 +1,66 @@
+﻿path,rows,columns,main_map_runtime,route_module_reads_if_registered,priority_for_your_part,notes_zh
+app/data/attraction_access_points_2025.csv,18,17,no,no,建议,入口与分析参考点；不能把所有点都解释为无障碍入口。
+app/data/attraction_conditions_hourly_2025.csv,113880,51,yes,no,复用,已有景点历史人流；本应用据此计算条件平均。
+app/data/attraction_details_2025.csv,13,25,no,no,必需,景点详情；按 attraction_id 关联，保留各字段证据状态。
+app/data/attraction_facility_links_2025.csv,2430,13,no,no,必需,每景点 1000m 内设施关系和直线距离；用于周边筛选。
+app/data/attraction_transport_links_2025.csv,1812,13,yes,no,复用,已有景点—交通关系；不要重新叠加同样记录。
+app/data/attractions_2025.csv,13,27,yes,yes,复用,主图已有的13景点、坐标和稳定 ID。
+app/data/basemap/street_labels.csv,20,4,yes,no,备用/说明,保留独有原始文件；查原数据字典和说明后再使用。
+app/data/crowd_classification_rules_2025.csv,1,28,yes,no,复用,主应用已有的人流分类阈值。
+app/data/crowd_sensors_near_attractions_2025.csv,58,20,no,no,备用/说明,保留独有原始文件；查原数据字典和说明后再使用。
+app/data/facilities_2025.csv,542,56,no,yes,必需,厕所、座椅、饮水点、遮蔽设施；按 facility_uid 关联。路线模块已读取此表。
+app/data/public_holidays_victoria_2025.csv,13,2,yes,no,复用,当前应用定义假日组时使用。
+app/data/sensor_hourly_2025.csv,508080,12,yes,no,复用,当前58感测器热力图输入，不能直接用68感测器表覆盖。
+app/data/sources.csv,85,12,no,no,建议阅读,来源、日期、授权与限制；保留85条和91条两个不同版本。
+app/data/station_levels_2025.csv,12,7,no,no,可选,站内层级；配合通道与站点使用。
+app/data/station_pathways_2025.csv,49,23,no,no,可选,站内通道，包括部分电梯、楼梯等；不构成完整步行路网。
+app/data/stop_route_links_2025.csv,1042,10,yes,no,复用,已有站点—线路—方向关系。
+app/data/transport_routes_2025.csv,116,14,yes,no,复用,已有交通线路属性；不是线路线形。
+app/data/transport_stops_2025.csv,231,33,yes,no,复用,已有交通位置；主应用只读取其中部分字段。
+app/data/weather_for_crowd_join_2025.csv,8760,26,yes,no,复用,2025区域天气分类，主应用据此筛选日期。
+app/docs/monthly_profile_coverage.csv,48,5,no,no,备用/说明,保留独有原始文件；查原数据字典和说明后再使用。
+app/metadata/weather_rules_2025.csv,1,13,no,no,备用/说明,保留独有原始文件；查原数据字典和说明后再使用。
+data_archive/data/attraction_crowd_hourly_2025.csv,113880,24,no,no,备用/说明,保留独有原始文件；查原数据字典和说明后再使用。
+data_archive/data/attraction_crowd_profiles_2025.csv,2184,27,no,no,备用/说明,保留独有原始文件；查原数据字典和说明后再使用。
+data_archive/data/attraction_expanded_sensor_links_2025.csv,576,9,no,no,备用扩展,更多感测器/完整公交/站点附近街道人流；两位组员当前界面未接入这一扩充模块。
+data_archive/data/attraction_primary_sensors_2025.csv,13,17,no,no,备用/说明,保留独有原始文件；查原数据字典和说明后再使用。
+data_archive/data/attraction_sensor_links_2025.csv,605,12,no,no,备用/说明,保留独有原始文件；查原数据字典和说明后再使用。
+data_archive/data/bus_route_pattern_stops_2025.csv,5515,19,no,no,备用扩展,更多感测器/完整公交/站点附近街道人流；两位组员当前界面未接入这一扩充模块。
+data_archive/data/bus_route_patterns_2025.csv,138,24,no,no,备用扩展,更多感测器/完整公交/站点附近街道人流；两位组员当前界面未接入这一扩充模块。
+data_archive/data/bus_route_shape_points_2025.csv,53846,8,no,no,备用扩展,更多感测器/完整公交/站点附近街道人流；两位组员当前界面未接入这一扩充模块。
+data_archive/data/bus_route_shapes_2025.csv,138,9,no,no,备用扩展,更多感测器/完整公交/站点附近街道人流；两位组员当前界面未接入这一扩充模块。
+data_archive/data/bus_routes_full_2025.csv,44,21,no,no,备用扩展,更多感测器/完整公交/站点附近街道人流；两位组员当前界面未接入这一扩充模块。
+data_archive/data/bus_stop_nearby_crowd_hourly_2025.csv,429240,14,no,no,备用扩展,更多感测器/完整公交/站点附近街道人流；两位组员当前界面未接入这一扩充模块。
+data_archive/data/bus_stop_pedestrian_sensor_links_2025.csv,49,9,no,no,备用扩展,更多感测器/完整公交/站点附近街道人流；两位组员当前界面未接入这一扩充模块。
+data_archive/data/bus_stops_full_routes_2025.csv,1354,21,no,no,备用扩展,更多感测器/完整公交/站点附近街道人流；两位组员当前界面未接入这一扩充模块。
+data_archive/data/crowd_attraction_summary_2025.csv,13,20,no,no,备用/说明,保留独有原始文件；查原数据字典和说明后再使用。
+data_archive/data/pedestrian_sensor_hourly_ftz_2025.csv,554768,14,no,no,备用扩展,更多感测器/完整公交/站点附近街道人流；两位组员当前界面未接入这一扩充模块。
+data_archive/data/pedestrian_sensor_profiles_ftz_2025.csv,11424,14,no,no,备用扩展,更多感测器/完整公交/站点附近街道人流；两位组员当前界面未接入这一扩充模块。
+data_archive/data/pedestrian_sensors_ftz_2025.csv,68,28,no,no,备用扩展,更多感测器/完整公交/站点附近街道人流；两位组员当前界面未接入这一扩充模块。
+data_archive/data/service_calendar_2025.csv,520,14,no,no,备用/说明,保留独有原始文件；查原数据字典和说明后再使用。
+data_archive/data/service_exceptions_2025.csv,2458,7,no,no,备用/说明,保留独有原始文件；查原数据字典和说明后再使用。
+data_archive/data/transport_agencies_2025.csv,8,10,no,no,备用/说明,保留独有原始文件；查原数据字典和说明后再使用。
+data_archive/data/weather_daily_2024.csv,366,35,no,no,备用比较,2024天气参考；不要与2025人流冒充同日数据合并。
+data_archive/data/weather_daily_2025.csv,365,35,no,no,备用/说明,保留独有原始文件；查原数据字典和说明后再使用。
+data_archive/data/weather_for_crowd_join_2024.csv,8784,26,no,no,备用比较,2024天气参考；不要与2025人流冒充同日数据合并。
+data_archive/data/weather_hourly_2024.csv,8784,34,no,no,备用比较,2024天气参考；不要与2025人流冒充同日数据合并。
+data_archive/data/weather_hourly_2025.csv,8760,34,no,no,备用/说明,保留独有原始文件；查原数据字典和说明后再使用。
+data_archive/metadata/attraction_detail_evidence_2025.csv,73,14,no,no,建议阅读,景点详情逐字段证据、范围和来源。
+data_archive/metadata/bus_crowd_data_availability_2025.csv,3,7,no,no,备用扩展,更多感测器/完整公交/站点附近街道人流；两位组员当前界面未接入这一扩充模块。
+data_archive/metadata/crowd_calibration_sensors_2025.csv,8,19,no,no,备用/说明,保留独有原始文件；查原数据字典和说明后再使用。
+data_archive/metadata/data_dictionary.csv,1105,6,no,no,建议阅读,原数据包字段定义；table_path 保留原包路径，查 FILE_ORIGINS.csv 定位。
+data_archive/metadata/file_manifest.csv,60,8,no,no,建议阅读,原数据包清单，属于原版本记录；整合路径以 FILE_ORIGINS.csv 为准。
+data_archive/metadata/input_packages.csv,3,6,no,no,备用/说明,保留独有原始文件；查原数据字典和说明后再使用。
+data_archive/metadata/integration_rules_2025.csv,1,21,no,no,备用/说明,保留独有原始文件；查原数据字典和说明后再使用。
+data_archive/metadata/sources.csv,91,12,no,no,建议阅读,来源、日期、授权与限制；保留85条和91条两个不同版本。
+data_archive/raw/crowd_counts_2025.csv,456860,9,no,no,原始备份,用于追溯与重新加工，不是你下一步默认输入。
+data_archive/references/accessibility_reference_non2025.csv,387,23,no,no,谨慎使用,2022/2024参考，不是已核实2025设施状态；可能与主表重叠。
+data_archive/references/attraction_accessibility_reference_links.csv,3665,12,no,no,谨慎使用,对应旧年份无障碍参考资料；不要混入2025主数据。
+data_archive/references/attraction_details_current_reference.csv,13,18,no,no,谨慎使用,当前资料参考；不要自动覆盖2025景点说明。
+data_archive/references/attraction_late_2025_station_links.csv,18,13,no,no,参考,有年份、范围或方法限制，使用前阅读原说明。
+data_archive/references/bus_network_daytype_patronage_2025.csv,210,14,no,no,备用扩展,更多感测器/完整公交/站点附近街道人流；两位组员当前界面未接入这一扩充模块。
+data_archive/references/bus_network_monthly_patronage_2025.csv,24,11,no,no,备用扩展,更多感测器/完整公交/站点附近街道人流；两位组员当前界面未接入这一扩充模块。
+data_archive/references/late_2025_station_references.csv,2,25,no,no,参考,有年份、范围或方法限制，使用前阅读原说明。
+data_archive/references/outside_facility_candidates.csv,501,10,no,no,参考,有年份、范围或方法限制，使用前阅读原说明。
+data_archive/references/outside_transport_candidates.csv,156,9,no,no,参考,有年份、范围或方法限制，使用前阅读原说明。
+data_archive/references/scope_summary.csv,22,7,no,no,参考,有年份、范围或方法限制，使用前阅读原说明。

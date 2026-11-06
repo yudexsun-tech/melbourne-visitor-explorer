@@ -1,0 +1,30 @@
+{
+  "provider": "OpenStreetMap contributors via Overpass API",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "license": "ODbL 1.0",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "query_date_utc": "2025-12-31T23:59:59Z",
+  "downloaded_local_date": "2026-10-20",
+  "query_file": "overpass_query.txt",
+  "source_sha256": "2c8ae18ec9b84dcaf0b92bcba0f0bdce5f5e1af40ecdbf775fb7f2381adeef18",
+  "osm_base_timestamp_utc": "2026-10-19T15:32:06Z",
+  "note": "osm_base_timestamp is the source database replication timestamp, not the requested historical snapshot date.",
+  "processing": "Extract road lines and park/water multipolygons; stitch relation outer/inner rings; clip and simplify to a local study extent in EPSG:3857, then export WGS84.",
+  "outputs": [
+    {
+      "file": "roads.geojson",
+      "features": 20124,
+      "sha256": "9a708ce4fb624fd68fec10ef7f1261a749e3fe2c68d82cb493e23035f8699051"
+    },
+    {
+      "file": "water.geojson",
+      "features": 44,
+      "sha256": "80c054fc4d349540782d8bf2f8e3c546d0832b7a4afc0319bb1c2e90d7f6e696"
+    },
+    {
+      "file": "parks.geojson",
+      "features": 1223,
+      "sha256": "99087a01cca8c09006d6a324df76f61253ab758091a5255298a91632df0d80e4"
+    }
+  ]
+}

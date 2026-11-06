@@ -1,0 +1,14 @@
+﻿attraction_id,name_en,latitude,longitude,project_visit_scope
+ATTR001,State Library Victoria,-37.8099666,144.9645969,Public visitor spaces in the library; the front lawn is excluded from this attraction record.
+ATTR002,The Ian Potter Centre: NGV Australia,-37.8177571,144.9697283,NGV Australia at Federation Square; NGV International on St Kilda Road is excluded.
+ATTR003,ACMI,-37.8176107327202,144.969070431323,ACMI public exhibition spaces; individual exhibitions and events require separate checking.
+ATTR004,Immigration Museum,-37.8190118,144.9603154,Immigration Museum at 400 Flinders Street.
+ATTR005,St Paul's Cathedral,-37.8171344,144.967769,Primarily the cathedral interior; worship and event times require separate checking.
+ATTR006,Queen Victoria Market,-37.8078466,144.9576513,Public market spaces and covered market passages; surrounding streets are not all included.
+ATTR007,Royal Arcade,-37.8141787,144.9639227,Public arcade passage; shops are not separate attractions.
+ATTR008,The Block Arcade,-37.8158931,144.9646961,Public arcade passage; shops are not separate attractions.
+ATTR009,Bourke Street Mall,-37.8138383,144.9644426,Bourke Street between Swanston and Elizabeth Streets; department-store interiors are excluded.
+ATTR010,Chinatown (Little Bourke Street),-37.8125015,144.9653949,Little Bourke Street between Swanston and Exhibition Streets; restaurants are not separate attractions.
+ATTR011,Flinders Street Railway Station - exterior,-37.8177588,144.967182,Exterior and public area near the main entrance and clocks at Flinders and Swanston Streets; paid platforms are excluded.
+ATTR012,Federation Square - public plaza,-37.8178516571684,144.968963600783,"Federation Square public plaza; ACMI and NGV Australia are separate attractions, so their interior facilities should not be double-counted."
+ATTR016,Hosier Lane,-37.8163287,144.9690782,"Hosier Lane between Flinders Street and Flinders Lane, primarily for outdoor street-art viewing."

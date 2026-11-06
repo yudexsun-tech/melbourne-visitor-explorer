@@ -1,0 +1,9 @@
+[out:json][timeout:120][date:"2025-12-31T23:59:59Z"];
+(
+  way["highway"~"^(motorway|trunk|primary|secondary|tertiary|residential|unclassified|service|pedestrian|living_street|footway|path|steps|cycleway)$"](-37.834,144.925,-37.793,144.991);
+  way["natural"="water"](-37.834,144.925,-37.793,144.991);
+  relation["natural"="water"](-37.834,144.925,-37.793,144.991);
+  way["leisure"="park"](-37.834,144.925,-37.793,144.991);
+  relation["leisure"="park"](-37.834,144.925,-37.793,144.991);
+  way["landuse"~"^(grass|recreation_ground|forest)$"](-37.834,144.925,-37.793,144.991);
+);out geom;

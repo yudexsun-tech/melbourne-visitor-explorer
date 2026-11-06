@@ -1,0 +1,119 @@
+{
+  "version": "2.0_expanded_2024_weather",
+  "updated_date": "2026-10-24",
+  "baseline_version": "1.2_historical_details",
+  "baseline_zip_sha256": "83a5aa9971d2ef0e52d3da7291014f9d3f165845a62da863d43cca275536161e",
+  "csv_count": 59,
+  "dictionary_fields": 1091,
+  "source_count": 91,
+  "new_csv_count": 17,
+  "authored_csv_count": 20,
+  "sensor_count": 68,
+  "sensor_spatial_counts": {
+    "inside_derived_ftz": 47,
+    "boundary_review_required": 21
+  },
+  "sensor_hourly_rows": 554768,
+  "original_attraction_primary_sensors": 8,
+  "additional_sensors_vs_original_candidate_inventory": 20,
+  "full_bus_stop_count": 1354,
+  "full_bus_route_ids": 44,
+  "public_bus_route_numbers": 25,
+  "bus_route_patterns": 138,
+  "bus_ordered_stop_rows": 5515,
+  "bus_shape_points": 53846,
+  "bus_proxy_status_counts": {
+    "nearby_street_sensor": 49
+  },
+  "attraction_expanded_sensor_link_rows": 576,
+  "weather_2024_hourly": 8784,
+  "weather_2024_daily": 366,
+  "preserved_original_csvs": 39,
+  "new_tables": [
+    {
+      "path": "data/weather_hourly_2024.csv",
+      "rows": 8784,
+      "primary_key": "weather_location_id + timestamp_utc"
+    },
+    {
+      "path": "data/weather_daily_2024.csv",
+      "rows": 366,
+      "primary_key": "weather_location_id + local_date"
+    },
+    {
+      "path": "data/weather_for_crowd_join_2024.csv",
+      "rows": 8784,
+      "primary_key": "weather_location_id + sensing_date + hourday"
+    },
+    {
+      "path": "data/bus_routes_full_2025.csv",
+      "rows": 44,
+      "primary_key": "route_uid"
+    },
+    {
+      "path": "data/bus_stops_full_routes_2025.csv",
+      "rows": 1354,
+      "primary_key": "stop_uid"
+    },
+    {
+      "path": "data/bus_route_patterns_2025.csv",
+      "rows": 138,
+      "primary_key": "pattern_uid"
+    },
+    {
+      "path": "data/bus_route_pattern_stops_2025.csv",
+      "rows": 5515,
+      "primary_key": "pattern_uid + stop_order"
+    },
+    {
+      "path": "data/bus_route_shapes_2025.csv",
+      "rows": 138,
+      "primary_key": "shape_uid"
+    },
+    {
+      "path": "data/bus_route_shape_points_2025.csv",
+      "rows": 53846,
+      "primary_key": "shape_uid + point_order"
+    },
+    {
+      "path": "data/pedestrian_sensors_ftz_2025.csv",
+      "rows": 68,
+      "primary_key": "location_id"
+    },
+    {
+      "path": "data/pedestrian_sensor_hourly_ftz_2025.csv",
+      "rows": 554768,
+      "primary_key": "location_id + sensing_date + hourday"
+    },
+    {
+      "path": "data/pedestrian_sensor_profiles_ftz_2025.csv",
+      "rows": 11424,
+      "primary_key": "location_id + weekday_iso + hourday"
+    },
+    {
+      "path": "references/bus_network_monthly_patronage_2025.csv",
+      "rows": 24,
+      "primary_key": "patronage_uid"
+    },
+    {
+      "path": "references/bus_network_daytype_patronage_2025.csv",
+      "rows": 210,
+      "primary_key": "patronage_uid"
+    },
+    {
+      "path": "data/attraction_expanded_sensor_links_2025.csv",
+      "rows": 576,
+      "primary_key": "attraction_id + location_id"
+    },
+    {
+      "path": "data/bus_stop_pedestrian_sensor_links_2025.csv",
+      "rows": 49,
+      "primary_key": "stop_uid"
+    },
+    {
+      "path": "metadata/bus_crowd_data_availability_2025.csv",
+      "rows": 3,
+      "primary_key": "availability_id"
+    }
+  ]
+}

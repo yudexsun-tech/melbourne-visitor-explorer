@@ -1,0 +1,70 @@
+[
+  {
+    "type": "node",
+    "id": "12965437220",
+    "timestamp": "2025-11-29T01:10:57Z",
+    "latitude": -37.816883,
+    "longitude": 144.9673132,
+    "tags": {
+      "gtfs:stop_id": "26555",
+      "local_ref": "2",
+      "name": "Town Hall",
+      "public_transport": "stop_position",
+      "railway": "stop",
+      "ref": "26555",
+      "side": "right",
+      "train": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": "12974818032",
+    "timestamp": "2025-11-29T01:10:57Z",
+    "latitude": -37.8158555,
+    "longitude": 144.9665957,
+    "tags": {
+      "gtfs:stop_id": "26554",
+      "local_ref": "1",
+      "name": "Town Hall",
+      "public_transport": "stop_position",
+      "railway": "stop",
+      "ref": "26554",
+      "side": "right",
+      "train": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": "12965437221",
+    "timestamp": "2025-12-08T05:13:35Z",
+    "latitude": -37.8091021,
+    "longitude": 144.9637459,
+    "tags": {
+      "gtfs:stop_id": "26553",
+      "local_ref": "2",
+      "name": "State Library",
+      "public_transport": "stop_position",
+      "railway": "stop",
+      "ref": "26553",
+      "side": "right",
+      "train": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": "12974818033",
+    "timestamp": "2025-12-08T05:13:35Z",
+    "latitude": -37.8077358,
+    "longitude": 144.962861,
+    "tags": {
+      "gtfs:stop_id": "26552",
+      "local_ref": "1",
+      "name": "State Library",
+      "public_transport": "stop_position",
+      "railway": "stop",
+      "ref": "26552",
+      "side": "right",
+      "train": "yes"
+    }
+  }
+]

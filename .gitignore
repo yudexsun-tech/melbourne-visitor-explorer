@@ -1,0 +1,12 @@
+.DS_Store
+__MACOSX/
+._*
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+app/cache/
+
+# The supplied public Mapbox configuration is intentionally versioned.
+!app/.Renviron
+

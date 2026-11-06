@@ -1,0 +1,247 @@
+{
+  "retrieved_date": "2026-10-28",
+  "source_snapshot_date": "2025-10-03",
+  "official_gtfs_documentation": "https://opendata.transport.vic.gov.au/dataset/gtfs-schedule",
+  "gtfs_specification": "https://gtfs.org/documentation/schedule/reference/",
+  "archive_article": "https://research-repository.rmit.edu.au/articles/dataset/Spatial_and_policy_urban_indicators_for_Naarm_Melbourne_Australia_/33158876/1",
+  "archive_download": "https://ndownloader.figshare.com/files/67254458",
+  "archive_bytes": 1212221172,
+  "nested_feeds": [
+    {
+      "entry": {
+        "name": "DTP PTV GTFS Feeds - September 2025/gtfs_20251003_180717/1/google_transit.zip",
+        "method": 8,
+        "crc32": 1726890323,
+        "compressed_size": 30212034,
+        "size": 31452966,
+        "offset": 912047022
+      },
+      "sha256": "d941a5351d70219e937d62af63bac16337ce29751d76a881aec6b34d2d73974a",
+      "crc_verified": true,
+      "files": [
+        {
+          "name": "shapes.txt",
+          "bytes": 121628195
+        },
+        {
+          "name": "stops.txt",
+          "bytes": 33081
+        },
+        {
+          "name": "levels.txt",
+          "bytes": 110
+        },
+        {
+          "name": "routes.txt",
+          "bytes": 1373
+        },
+        {
+          "name": "stop_times.txt",
+          "bytes": 7162483
+        },
+        {
+          "name": "trips.txt",
+          "bytes": 669909
+        },
+        {
+          "name": "transfers.txt",
+          "bytes": 110
+        },
+        {
+          "name": "calendar_dates.txt",
+          "bytes": 205
+        },
+        {
+          "name": "calendar.txt",
+          "bytes": 1422
+        },
+        {
+          "name": "pathways.txt",
+          "bytes": 19336
+        },
+        {
+          "name": "agency.txt",
+          "bytes": 406
+        }
+      ]
+    },
+    {
+      "entry": {
+        "name": "DTP PTV GTFS Feeds - September 2025/gtfs_20251003_180717/10/google_transit.zip",
+        "method": 8,
+        "crc32": 3454373045,
+        "compressed_size": 1241082,
+        "size": 1247259,
+        "offset": 942259253
+      },
+      "sha256": "08f680f83cee9f5808045fae70052937e9752f5539090a4d60e750ffe79adfce",
+      "crc_verified": true,
+      "files": [
+        {
+          "name": "shapes.txt",
+          "bytes": 4883800
+        },
+        {
+          "name": "stops.txt",
+          "bytes": 1880
+        },
+        {
+          "name": "levels.txt",
+          "bytes": 54
+        },
+        {
+          "name": "routes.txt",
+          "bytes": 170
+        },
+        {
+          "name": "stop_times.txt",
+          "bytes": 13757
+        },
+        {
+          "name": "trips.txt",
+          "bytes": 1821
+        },
+        {
+          "name": "transfers.txt",
+          "bytes": 110
+        },
+        {
+          "name": "calendar_dates.txt",
+          "bytes": 35
+        },
+        {
+          "name": "calendar.txt",
+          "bytes": 1103
+        },
+        {
+          "name": "pathways.txt",
+          "bytes": 84
+        },
+        {
+          "name": "agency.txt",
+          "bytes": 406
+        }
+      ]
+    },
+    {
+      "entry": {
+        "name": "DTP PTV GTFS Feeds - September 2025/gtfs_20251003_180717/2/google_transit.zip",
+        "method": 8,
+        "crc32": 1329582845,
+        "compressed_size": 18526708,
+        "size": 19860874,
+        "offset": 943642719
+      },
+      "sha256": "f4d796b926e6659674a2c931d2f89624627bc807ac633808c4ce6b2720c140db",
+      "crc_verified": true,
+      "files": [
+        {
+          "name": "shapes.txt",
+          "bytes": 68350327
+        },
+        {
+          "name": "stops.txt",
+          "bytes": 156876
+        },
+        {
+          "name": "levels.txt",
+          "bytes": 150
+        },
+        {
+          "name": "routes.txt",
+          "bytes": 3014
+        },
+        {
+          "name": "stop_times.txt",
+          "bytes": 47513671
+        },
+        {
+          "name": "trips.txt",
+          "bytes": 3995194
+        },
+        {
+          "name": "transfers.txt",
+          "bytes": 1271226
+        },
+        {
+          "name": "calendar_dates.txt",
+          "bytes": 713
+        },
+        {
+          "name": "calendar.txt",
+          "bytes": 1361
+        },
+        {
+          "name": "pathways.txt",
+          "bytes": 110339
+        },
+        {
+          "name": "agency.txt",
+          "bytes": 406
+        }
+      ]
+    },
+    {
+      "entry": {
+        "name": "DTP PTV GTFS Feeds - September 2025/gtfs_20251003_180717/3/google_transit.zip",
+        "method": 8,
+        "crc32": 2839495149,
+        "compressed_size": 16583783,
+        "size": 21531826,
+        "offset": 962169623
+      },
+      "sha256": "0c8ae245a7825963f16aa0249b349b9e284b79167248c946ae38102b04eaf11f",
+      "crc_verified": true,
+      "files": [
+        {
+          "name": "shapes.txt",
+          "bytes": 5568744
+        },
+        {
+          "name": "stops.txt",
+          "bytes": 146555
+        },
+        {
+          "name": "levels.txt",
+          "bytes": 54
+        },
+        {
+          "name": "routes.txt",
+          "bytes": 2193
+        },
+        {
+          "name": "stop_times.txt",
+          "bytes": 257360024
+        },
+        {
+          "name": "trips.txt",
+          "bytes": 6659178
+        },
+        {
+          "name": "transfers.txt",
+          "bytes": 110
+        },
+        {
+          "name": "calendar_dates.txt",
+          "bytes": 375
+        },
+        {
+          "name": "calendar.txt",
+          "bytes": 948
+        },
+        {
+          "name": "pathways.txt",
+          "bytes": 84
+        },
+        {
+          "name": "agency.txt",
+          "bytes": 406
+        }
+      ]
+    }
+  ],
+  "license": "Official GTFS: CC BY 4.0; research archive: ODC-By. Retain original DTP/PTV attribution and applicable source terms.",
+  "attribution": "Department of Transport and Planning / Public Transport Victoria; RMIT research archive: Carl Higgs, Ryan Turner, Sonja Broersen and Melanie Lowe, doi:10.25439/rmt.33158876.v1",
+  "runtime_network_required": false,
+  "preparation": "Bus shapes reuse unchanged supplied tables. Tram and rail feeds are the same archived 2025-10-03 source version as the original stops/routes. Shape segments are clipped to the original study polygon without connecting outside gaps. Destination text uses trip_headsign, overridden by stop_times.stop_headsign at the hovered station."
+}

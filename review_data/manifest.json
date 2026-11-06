@@ -1,0 +1,40 @@
+{
+  "version": "2026-10-31",
+  "chart": "melbourne_reviews_monthly_5star_4star_1to3star_20261031.csv",
+  "source_package": "melbourne_attraction_reviews_20261030_history",
+  "source_copy": "Three original CSVs copied byte for byte; no raw pagination evidence included.",
+  "files": {
+    "README.md": {
+      "bytes": 6056,
+      "sha256": "228a4477e67aaaedde801179ae9539392daf40f95f3c9bb7abe40364463b12ca"
+    },
+    "melbourne_reviews_monthly_5star_4star_1to3star_20261031.csv": {
+      "bytes": 372520,
+      "sha256": "4a5d453840e387d64f8fb8a5d0b6cc12a218a9789f844b5a317669c114e500fe"
+    },
+    "source/PROVENANCE.md": {
+      "bytes": 1998,
+      "sha256": "1772b9f6fb44f8850f9790b0ce526318b587362c5d374c9b0465a2de225e76fe"
+    },
+    "source/attractions.csv": {
+      "bytes": 1980,
+      "sha256": "4afcd6ebfed28b80b6db3d214132cc8adefbea3d59974985b4b9b2a4b075d773"
+    },
+    "source/platform_listings.csv": {
+      "bytes": 40489,
+      "sha256": "a392ace2ed665dbaafd5427f7dbccab9cb7cbaa241810ef627d22bd7f460db55"
+    },
+    "source/reviews.csv": {
+      "bytes": 20842998,
+      "sha256": "67a1e860dcfaa3d88c368886d5a4279dd41551499fed7d94583d694230da825e"
+    },
+    "validate_review_data.py": {
+      "bytes": 4233,
+      "sha256": "7d475d5c1ddbf6b40fbefaceb72b4ebe978a7ce4069ed3ab0cb542988c054f08"
+    },
+    "validation_report.json": {
+      "bytes": 569,
+      "sha256": "709f7256b8b39a2c1a30a3933a4d31f951fa8b49bf89450e9ea59cbc7d03b3dd"
+    }
+  }
+}

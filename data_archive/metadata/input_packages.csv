@@ -1,0 +1,4 @@
+﻿"input_package","input_version","input_size_bytes","input_sha256","purpose","resolved_date"
+"melbourne_2025_attraction_data.zip","1","7890064","a1a0d7808273baffa47dba1b815b6250caad1877c29bd061267f48d6f112bee5","Resolved latest saved module used as an immutable input","2026-10-12"
+"melbourne_weather_2025.zip","1","694765","87aaec59eba643fe1bdc325974025423e14793b7f76d22d3db8b6698ef507663","Resolved latest saved module used as an immutable input","2026-10-12"
+"melbourne_transport_facilities_2025.zip","1","1523760","0c4d6490de0b81dd297cb0ffcdf06e36c8cd4a5ae49e556c800fb7c4b629ede1","Resolved latest saved module used as an immutable input","2026-10-12"

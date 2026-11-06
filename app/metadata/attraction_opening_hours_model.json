@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-31",
+  "basis": "Google Maps regular visitor opening hours checked 2026-10-31, with cathedral and Block Arcade corrections applied. Existing public-space/exterior rules are retained where Google Maps has no weekly timetable. Current weekly schedules are applied across historical traffic profiles for visitor planning.",
+  "clock_rule": "Use the selected local clock hour at HH:00. Opening is inclusive and closing exclusive. A 20:30 closing time is open at 20:00 and closed at 21:00.",
+  "calendar_rule": "Evaluate the actual 2024-2025 dates behind the selected month/weather/day-type profile. All closed: grey Closed. At least one open date and some closed/unknown dates: retain traffic colour with Hours vary by day. No known open date and an unknown schedule: grey Not available, never invent Closed.",
+  "public_spaces": "ATTR009, ATTR010, ATTR011, ATTR012, ATTR016 remain unrestricted public-space/exterior records; separate tenant and toilet hours do not close the whole attraction.",
+  "cathedral_sunday": "Google Maps lists Sunday 08:00-18:00; Monday-Friday 10:00-18:00; Saturday 10:00-17:00. Opening inclusive, closing exclusive. Service-time sightseeing restriction remains in visitor text.",
+  "cathedral_service_copy_source": "https://cathedral.org.au/explore/",
+  "exceptions": "Only existing explicit closures and ANZAC Day openings for the 2024-2025 analysis dates are used. Do not add 2026 holiday closures or infer historical exceptions from current notices.",
+  "preserved": "The 2024-2025 raw counts, historic exception table, Queen Victoria Market schedule, other attraction thresholds, transport, street heat, names, avg labels and routes remain unchanged. Only Block Arcade regular hours and thresholds change in this final update; authorized cathedral fixes are retained.",
+  "cathedral_hours_source": "https://www.google.com/maps/place/St+Paul%27s+Cathedral,+Melbourne/@-37.817029,144.967687,17z/data=!3m1!4b1!4m6!3m5!1s0x6ad642b686cb506d:0x629a2c4f6dbb8657!8m2!3d-37.817029!4d144.967687!16zL20vMDNzcnpt",
+  "block_arcade": "Saturday 08:00-18:00; Sunday 09:00-18:00. Other weekdays unchanged. Per-attraction open-hours terciles recalculated."
+}

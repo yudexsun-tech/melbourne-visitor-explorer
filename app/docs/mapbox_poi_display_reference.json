@@ -1,0 +1,84 @@
+{
+  "verified_date": "2026-11-01",
+  "style": "mapbox://styles/yuuki2004526/cmvxdpjg7001h01st5hlb309n",
+  "scope": "Main-map display only. Original coordinates remain authoritative for calculations and other pages.",
+  "references": {
+    "ATTR001": {
+      "name": "State Library Victoria",
+      "coordinates": [
+        144.96549546718597,
+        -37.80969707067399
+      ]
+    },
+    "ATTR002": {
+      "name": "Ian Potter Centre: NGV Australia",
+      "coordinates": [
+        144.96996134519577,
+        -37.81755632985903
+      ]
+    },
+    "ATTR003": {
+      "name": "ACMI",
+      "coordinates": [
+        144.9691043794155,
+        -37.817468397238365
+      ]
+    },
+    "ATTR004": {
+      "name": "Immigration Museum",
+      "coordinates": [
+        144.96039927005768,
+        -37.81912638624858
+      ]
+    },
+    "ATTR005": {
+      "name": "Saint Paul’s Cathedral",
+      "coordinates": [
+        144.96761441230774,
+        -37.81679777513157
+      ]
+    },
+    "ATTR006": {
+      "name": "Queen Victoria Market",
+      "coordinates": [
+        144.95731472969055,
+        -37.807344851483265
+      ]
+    },
+    "ATTR009": {
+      "name": "Bourke Street Mall",
+      "coordinates": [
+        144.96444135904312,
+        -37.81383764204532
+      ]
+    },
+    "ATTR012": {
+      "name": "Federation Square",
+      "coordinates": [
+        144.96934980154037,
+        -37.817905940447226
+      ]
+    },
+    "ATTR007": {
+      "name": "Royal Arcade",
+      "coordinates": [
+        144.964060485363,
+        -37.81457927565115
+      ]
+    },
+    "ATTR011": {
+      "name": "Flinders Street",
+      "coordinates": [
+        144.96717989444733,
+        -37.81775973985724
+      ]
+    },
+    "ATTR008": {
+      "name": "Block Arcade",
+      "coordinates": [
+        144.96443331241608,
+        -37.815595301596254
+      ]
+    }
+  }
+}

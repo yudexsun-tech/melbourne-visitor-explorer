@@ -1,0 +1,91 @@
+{
+  "source_article": "https://research-repository.rmit.edu.au/articles/dataset/Spatial_and_policy_urban_indicators_for_Naarm_Melbourne_Australia_/33158876/1",
+  "article_api": "https://api.figshare.com/v2/articles/33158876/versions/1",
+  "file_download_url": "https://ndownloader.figshare.com/files/67254458",
+  "archive_file_id": 67254458,
+  "archive_file_bytes": 1212221172,
+  "archive_supplied_md5": "9705dde82a573385ae1720d1a60b4507",
+  "nested_entry": {
+    "name": "DTP PTV GTFS Feeds - September 2025/gtfs_20251003_180717/4/google_transit.zip",
+    "method": 8,
+    "crc32": 2494717336,
+    "compressed_size": 56420940,
+    "uncompressed_size": 68528928,
+    "local_header_offset": 978753602
+  },
+  "range_start": 978753602,
+  "range_end": 1035178745,
+  "range_bytes_received": 56425144,
+  "nested_bytes": 68528928,
+  "nested_sha256": "85dfe445521a314e575c2e99f1853a6fb80bfb0e6630cd4d6e476c9eb792bdef",
+  "nested_md5": "21617046a72025a14f0be6b16ad08731",
+  "nested_crc32_verified": true,
+  "nested_zip_path": "/workspace/scratch/dabab93e70be/research/oct24_bus/retrieval/metro_bus_gtfs_20251003.zip",
+  "files": [
+    {
+      "name": "shapes.txt",
+      "bytes": 86076505,
+      "compressed_bytes": 19927582
+    },
+    {
+      "name": "stops.txt",
+      "bytes": 2162930,
+      "compressed_bytes": 544320
+    },
+    {
+      "name": "levels.txt",
+      "bytes": 72,
+      "compressed_bytes": 46
+    },
+    {
+      "name": "routes.txt",
+      "bytes": 56478,
+      "compressed_bytes": 7686
+    },
+    {
+      "name": "stop_times.txt",
+      "bytes": 579225171,
+      "compressed_bytes": 47248663
+    },
+    {
+      "name": "trips.txt",
+      "bytes": 18906315,
+      "compressed_bytes": 591850
+    },
+    {
+      "name": "transfers.txt",
+      "bytes": 110,
+      "compressed_bytes": 65
+    },
+    {
+      "name": "calendar_dates.txt",
+      "bytes": 2396364,
+      "compressed_bytes": 189069
+    },
+    {
+      "name": "calendar.txt",
+      "bytes": 390675,
+      "compressed_bytes": 18269
+    },
+    {
+      "name": "pathways.txt",
+      "bytes": 84,
+      "compressed_bytes": 71
+    },
+    {
+      "name": "agency.txt",
+      "bytes": 406,
+      "compressed_bytes": 195
+    }
+  ],
+  "license_archive": "ODC-By; retain original DTP/PTV attribution and applicable source terms",
+  "retrieved_utc": "2026-10-24",
+  "range_headers": {
+    "content-length": "56425144",
+    "accept-ranges": "bytes",
+    "content-range": "bytes 978753602-1035178745/1212221172",
+    "last-modified": "Wed, 05 Aug 2026 01:00:55 GMT",
+    "etag": "\"7745a04b2472a85d7ce382e8d016900d-2\"",
+    "content-type": "application/zip"
+  }
+}

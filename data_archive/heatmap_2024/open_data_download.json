@@ -1,0 +1,6 @@
+{
+  "url": "https://data.melbourne.vic.gov.au/api/explore/v2.1/catalog/datasets/pedestrian-counting-system-monthly-counts-per-hour/exports/csv?where=sensing_date+%3E%3D+date%272024-01-01%27+and+sensing_date+%3C+date%272025-01-01%27&delimiter=%2C&timezone=Australia%2FMelbourne&use_labels=false",
+  "retrieved_date": "2026-10-27",
+  "bytes": 10979831,
+  "sha256": "8643a89a154a7974f8e098212b6cf5bbf9cdb3c32f85e461c5e3382369b1116b"
+}

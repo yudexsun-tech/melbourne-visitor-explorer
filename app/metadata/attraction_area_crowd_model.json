@@ -1,0 +1,34 @@
+{
+  "metric": "nearby_hourly_passages_per_effective_m2",
+  "threshold_basis": "Separate fixed 1/3 and 2/3 quantiles (R type 7, unrounded) for each attraction. For each existing pooled 2024-2025 month/weather/day-type/hour profile, calculate the mean from known-open, valid hourly observations only, then divide by that attraction's effective area. Closed and unknown opening times, negative and missing counts are excluded; observed zero remains valid. Each finite profile/hour mean has equal weight. Thresholds do not change with UI filters. Original displayed counts remain unchanged.",
+  "area_selection_space_per_person_m2": 4,
+  "area_selection_note": "All three package scenarios use the same effective area. The 4 m2 row only selects a unique record; no dwell time, simultaneous occupancy or entry conversion is applied.",
+  "fallback_attraction_ids": [],
+  "fallback_basis": "None. All thirteen attractions now have area estimates, including the cathedral supplement dated 2026-10-30.",
+  "source_package": "melbourne_ftz_2025_project_data_v2_4_capacity_flow.zip",
+  "date": "2026-10-31",
+  "bands": {
+    "quiet": "intensity < moderate_threshold",
+    "moderate": "moderate_threshold <= intensity < busy_threshold",
+    "crowded": "intensity >= busy_threshold"
+  },
+  "calibration_attraction_ids": [
+    "ATTR001",
+    "ATTR002",
+    "ATTR003",
+    "ATTR004",
+    "ATTR005",
+    "ATTR006",
+    "ATTR007",
+    "ATTR008",
+    "ATTR009",
+    "ATTR010",
+    "ATTR011",
+    "ATTR012",
+    "ATTR016"
+  ],
+  "supplementary_area_file": "attraction_additional_areas.csv",
+  "supplementary_area_note": "ATTR005 uses City of Melbourne 2020 ground-level building footprint with a 0.5 usable fraction assumption; see cathedral_area_source_2026-10-30.json. It has its own open-hours tercile thresholds, like all other attractions.",
+  "calibration_method": "per_attraction_open_hours_terciles",
+  "tie_policy": "Equal intensities receive the same band; exact thirds may differ slightly with ties or indivisible sample sizes. Boundaries belong to the higher band."
+}

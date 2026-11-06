@@ -1,0 +1,17 @@
+{
+  "crs_for_processing": 32755,
+  "road_features": 4733,
+  "footpath_features": 2748,
+  "building_features": 1534,
+  "selected_road_types": [
+    "Road Carriageway",
+    "Road Arterial",
+    "Road Footway",
+    "Road Tram Formation"
+  ],
+  "street_area_m2": 957076.1723,
+  "mask_area_m2": 944635.5495,
+  "building_overlap_removed_m2": 9765.405,
+  "boundary_area_m2": 3158020.4162,
+  "simplification_area_removed_m2": 2675.2178000000113
+}

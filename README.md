@@ -100,3 +100,4 @@ This application is presented as an individual portfolio project. External datas
 ## Publication checks
 
 Original application code, public Mapbox configuration and data bytes are preserved. Platform metadata and saved R session files are excluded; introductory documentation is replaced with these bilingual descriptions. File integrity and local source references were checked. An end-to-end R/browser run was not performed in the publication environment because R was unavailable.
+

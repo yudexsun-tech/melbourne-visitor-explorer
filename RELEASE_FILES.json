@@ -1,0 +1,206 @@
+{
+  "release_asset": "melbourne-visitor-explorer-v1.0.0.zip",
+  "note": "These large files are included byte-for-byte in the complete Release ZIP, rather than in the Git source tree.",
+  "files": [
+    {
+      "path": "app/cache/project.rds",
+      "bytes": 71654881,
+      "sha256": "b9c7bd3aec0953471eadf3ec97ee85aac956448906eaf58e62eba75053592cf6"
+    },
+    {
+      "path": "app/data/attraction_conditions_hourly_2025.csv",
+      "bytes": 67291664,
+      "sha256": "ec7e1f12c9c0944f28748139fd493e58de086cc5b04433cd540fe7014328a8c7"
+    },
+    {
+      "path": "app/data/attraction_crowd_profiles_2025.csv",
+      "bytes": 669734,
+      "sha256": "b88c70ec567e9bb4cab60aa36d909d55ea5296f2620c0d8c05a4511e5855019f"
+    },
+    {
+      "path": "app/data/attraction_facility_links_2025.csv",
+      "bytes": 452256,
+      "sha256": "b990ad48031584e82904a7a642609842c7aa4e21c132c5cf8a3e3f6f3c23934c"
+    },
+    {
+      "path": "app/data/basemap/parks.geojson",
+      "bytes": 640134,
+      "sha256": "99087a01cca8c09006d6a324df76f61253ab758091a5255298a91632df0d80e4"
+    },
+    {
+      "path": "app/data/basemap/roads.geojson",
+      "bytes": 6051974,
+      "sha256": "9a708ce4fb624fd68fec10ef7f1261a749e3fe2c68d82cb493e23035f8699051"
+    },
+    {
+      "path": "app/data/basemap/roads_display.geojson",
+      "bytes": 5374929,
+      "sha256": "7e3f7da41cd4afb4de0f29fd48a5e950d7c5c8d538b2b3570a124fc1e538bab4"
+    },
+    {
+      "path": "app/data/bus_route_pattern_stops_2025.csv",
+      "bytes": 1564087,
+      "sha256": "a95c98ee479fc05e1108388be491ca52fed8e9d41dfca5015902fab20f3e5635"
+    },
+    {
+      "path": "app/data/bus_route_shape_points_2025.csv",
+      "bytes": 6129014,
+      "sha256": "83d648b94ca198ebe1c83fe05096280c30e3106e25e903ecc84d09e37ac9f2b1"
+    },
+    {
+      "path": "app/data/pedestrian_sensor_hourly_ftz_2024.csv",
+      "bytes": 66900355,
+      "sha256": "7d874a75db36b27fe6ba0dee6de7a9d52002df7c063475f9161cbb2dea77930d"
+    },
+    {
+      "path": "app/data/pedestrian_sensor_hourly_ftz_2025.csv",
+      "bytes": 102929940,
+      "sha256": "409393479dd979d4838d87daec794d4cdad73772f8f64e084eac773fb9e718b6"
+    },
+    {
+      "path": "app/data/sensor_hourly_2025.csv",
+      "bytes": 57034923,
+      "sha256": "6439698f568a6ccbe0f2f33359e64e16a6b6bfe25a4ce9618d06fecd04eec29c"
+    },
+    {
+      "path": "app/data/street_heat/building_ground_footprints_2020.geojson",
+      "bytes": 1050064,
+      "sha256": "45b21b212e6fa39383d9b7a6127e7ce49ea5c705583b491868230e2101f3e85c"
+    },
+    {
+      "path": "app/data/street_heat/footpaths.geojson",
+      "bytes": 2753699,
+      "sha256": "90f863380213a0322f57233e77539842f9d442d0a9d75c1c40bad52f7b1af5e3"
+    },
+    {
+      "path": "app/data/street_heat/mask.geojson",
+      "bytes": 5952335,
+      "sha256": "4bb27ffe022cf3176cc8896f1a8b2ebc105e1efe00730d6be0af9430339dada8"
+    },
+    {
+      "path": "app/data/street_heat/mask_display.geojson",
+      "bytes": 734883,
+      "sha256": "6e277ada8094860e12fee2bab8ab79d05ed171dffba1f9714614e1efc8b585c2"
+    },
+    {
+      "path": "app/data/street_heat/road_surfaces.geojson",
+      "bytes": 8044600,
+      "sha256": "f5da189b675ff044f4ae96e5a83375c15d1c77f57052b86f73fdf0377ad466fd"
+    },
+    {
+      "path": "app/data/study_transit_display_paths_2025.json",
+      "bytes": 646993,
+      "sha256": "8a8670fe3240af6c1e11eceae3e87fa63a722ad29536d3a7951140b302a29609"
+    },
+    {
+      "path": "app/data/study_transit_routes_2025.json",
+      "bytes": 3963592,
+      "sha256": "373354a66ead041484b49de614d6acddbedf47666f3c8aacd9bef8b446e4bb55"
+    },
+    {
+      "path": "app/data/weather_for_crowd_join_2024.csv",
+      "bytes": 2349284,
+      "sha256": "be4b79ab8d0beb4c11d17aae38b2c220672b9a407cba61e080ab339a6d6a681c"
+    },
+    {
+      "path": "app/data/weather_for_crowd_join_2025.csv",
+      "bytes": 2342834,
+      "sha256": "0abc14e92fdce41b5c192ee3e3bbd3bc8ae5d9b1b4e59566902e31247beecd34"
+    },
+    {
+      "path": "app/docs/heatmap_evidence/pooled_profile_cells.csv",
+      "bytes": 4482312,
+      "sha256": "d2dca5670f17da34044914a69c039afdc71528f9b49a446396f4ebb4832bd1a1"
+    },
+    {
+      "path": "data_archive/data/attraction_crowd_hourly_2025.csv",
+      "bytes": 30782194,
+      "sha256": "c7ef581ccc9467f51a993490d457f400296392c5abcbee22d877b6f43b0cdbb7"
+    },
+    {
+      "path": "data_archive/data/attraction_crowd_profiles_2025.csv",
+      "bytes": 669734,
+      "sha256": "b88c70ec567e9bb4cab60aa36d909d55ea5296f2620c0d8c05a4511e5855019f"
+    },
+    {
+      "path": "data_archive/data/bus_route_pattern_stops_2025.csv",
+      "bytes": 1564087,
+      "sha256": "a95c98ee479fc05e1108388be491ca52fed8e9d41dfca5015902fab20f3e5635"
+    },
+    {
+      "path": "data_archive/data/bus_route_shape_points_2025.csv",
+      "bytes": 6129014,
+      "sha256": "83d648b94ca198ebe1c83fe05096280c30e3106e25e903ecc84d09e37ac9f2b1"
+    },
+    {
+      "path": "data_archive/data/bus_stop_nearby_crowd_hourly_2025.csv",
+      "bytes": 87811867,
+      "sha256": "ae8c0dba30ca5e854b487a0fcd5c4ec449ab73ee004618134f90d83e63bd33a5"
+    },
+    {
+      "path": "data_archive/data/pedestrian_sensor_hourly_ftz_2025.csv",
+      "bytes": 102929940,
+      "sha256": "409393479dd979d4838d87daec794d4cdad73772f8f64e084eac773fb9e718b6"
+    },
+    {
+      "path": "data_archive/data/pedestrian_sensor_profiles_ftz_2025.csv",
+      "bytes": 1753854,
+      "sha256": "09bb5cb62e3b29ba21d165545aca837d62658363b698cdd0f9cb45171a7a2571"
+    },
+    {
+      "path": "data_archive/data/weather_for_crowd_join_2024.csv",
+      "bytes": 2349284,
+      "sha256": "be4b79ab8d0beb4c11d17aae38b2c220672b9a407cba61e080ab339a6d6a681c"
+    },
+    {
+      "path": "data_archive/data/weather_hourly_2024.csv",
+      "bytes": 3000852,
+      "sha256": "24698a5fc9e99618ae45b709557a1aaadd6b8db1906db2e79cd2be3092367d59"
+    },
+    {
+      "path": "data_archive/data/weather_hourly_2025.csv",
+      "bytes": 2991717,
+      "sha256": "3581300ff46bf1d22347fcb6b04fde2ce6a1805923d41748e555ba14b5069f61"
+    },
+    {
+      "path": "data_archive/geometry/bus_routes_full_2025.geojson",
+      "bytes": 1539134,
+      "sha256": "d767c6c63982f916b51030359488fb221efe8db1720cfcab7a92174c814fa31d"
+    },
+    {
+      "path": "data_archive/heatmap_2024/citywide_open_data_2024_coordinates.csv",
+      "bytes": 10979831,
+      "sha256": "8643a89a154a7974f8e098212b6cf5bbf9cdb3c32f85e461c5e3382369b1116b"
+    },
+    {
+      "path": "data_archive/heatmap_2024/official_daily_2024.zip",
+      "bytes": 3811369,
+      "sha256": "8217836e6bae6f0aa3394fee4796a8749de9098a3a959d053b5cbd058bec25fb"
+    },
+    {
+      "path": "data_archive/raw/crowd_counts_2025.csv",
+      "bytes": 35995868,
+      "sha256": "ea2e44bf70df805822b27e8b8848bdac10d0d25600c3a9be916a33e0f859f9d1"
+    },
+    {
+      "path": "data_archive/raw/raw_weather_api.json",
+      "bytes": 610969,
+      "sha256": "737a7e02376044926b68216e1273a04fd3b941c978bad5fa35b0008f24cb6107"
+    },
+    {
+      "path": "data_archive/raw/raw_weather_api_2024.json",
+      "bytes": 613585,
+      "sha256": "cf65d5424b368fd1df895f478be10425dd38c9d9e5c9c4b6434676b1e7355a81"
+    },
+    {
+      "path": "data_archive/references/attraction_accessibility_reference_links.csv",
+      "bytes": 695341,
+      "sha256": "be356ca983c694148e29bd994ef5f128a64f5a5d2b9e3f797666d0f7f7735565"
+    },
+    {
+      "path": "review_data/source/reviews.csv",
+      "bytes": 20842998,
+      "sha256": "67a1e860dcfaa3d88c368886d5a4279dd41551499fed7d94583d694230da825e"
+    }
+  ]
+}

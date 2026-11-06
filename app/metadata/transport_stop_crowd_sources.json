@@ -1,0 +1,43 @@
+{
+  "prepared_date": "2026-10-29",
+  "transport_snapshot": "2025-10-03",
+  "method": "Haversine nearest sensor from the existing 68 verified 2024/2025 sensor coordinates; Earth radius 6371000 m; raw distance <= 500 m; ties choose lowest numeric sensor ID; stored distance rounded to 0.1 m.",
+  "measurement_scope": "Estimated nearby street passages per minute per metre; original hourly means also shown. Not station occupancy, waiting passengers or onboard load.",
+  "spatial_caveat": "Straight-line proximity does not establish pedestrian access or which side of a road/barrier the passenger uses. Rail uses existing merged station reference points, not every station entrance. No new station or sensor is added.",
+  "bus_rule": "Original 49 bus-sensor links remain unchanged; 5 displayed bus stops without original links remain unmapped.",
+  "tram_rail_total": {
+    "stops": 120,
+    "mapped": 119,
+    "unmapped": 1
+  },
+  "inside_study": {
+    "tram": {
+      "stops": 107,
+      "mapped": 106
+    },
+    "rail": {
+      "stops": 4,
+      "mapped": 4
+    }
+  },
+  "time_rule": "Reuse exact heat sensor profile values, pooling valid dates in 2024 and 2025 for matching month, daily weather, day type and hour; missing is not zero; valid zero is retained.",
+  "colors": {
+    "quiet": "<18 passages/min/m, #2e7d32",
+    "crowded": ">=18 passages/min/m, #c62828",
+    "unknown": "missing/unmapped, #9e9e9e"
+  },
+  "capacity_used": false,
+  "script": "../tools/prepare_tram_rail_crowd_links.R",
+  "sha256": {
+    "data/tram_rail_pedestrian_sensor_links.csv": "0db98c186a33cb5ca29b80dbc8ab2dbdca769822c41e05b24d12fc9ecd7e71eb",
+    "data/pedestrian_sensors_ftz_2024.csv": "97bbd6c5acda01587e9c1e8a21c14ee052c07ee08ffe5e687d949ba40870b6e1",
+    "data/pedestrian_sensors_ftz_2025.csv": "4b5e51ddb1da5cabb78a6fb140994a81ff95a8c2a83122f6f6d0ff8d8794d394",
+    "data/transport_stops_2025.csv": "3aa7087b740d6fb4d1e7a5a8fda5f9bbfe666d5feaf9c2a00d238b10c3251d92",
+    "data/bus_stop_pedestrian_sensor_links_2025.csv": "5a5cf14a25d9f2cc7a77df88033e8460c487b1f4e09065bf46feb5fac6221c17",
+    "data/transport_routes_2025.csv": "f96fd97683b0cdbc26527bf7957d74bb72a4e21882472c46e8baa6abe2220d5b",
+    "data/stop_route_links_2025.csv": "e4e4307b7953618ee9f77857a5708e4e8dc8f2afda985cc5bf624652cfe4e5a7",
+    "R/weather_transport.R": "26c8cff0f1df779cdb8072ee4adcbfa185726df722a791a09ffd2a510070e2a2",
+    "../tools/prepare_tram_rail_crowd_links.R": "e55275c6b12c279ff46f757425f69e38577a6e7d9ae8be90569c6f614dff053e"
+  },
+  "effective_width_source": "metadata/street_width_sources.json"
+}

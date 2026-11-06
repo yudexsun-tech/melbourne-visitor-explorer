@@ -1,0 +1,36 @@
+{
+  "source_archive": "melbourne_ftz_2025_project_data.zip",
+  "analysis_year": 2025,
+  "files": [
+    {
+      "source_member": "melbourne_ftz_2025_project_data/data/attractions_2025.csv",
+      "destination": "data/attractions_2025.csv",
+      "sha256": "6bfde88c91161812c8e8156fc843d5d4eba91280f6879d22076b4053af206eea",
+      "modifications": "none; copied byte-for-byte"
+    },
+    {
+      "source_member": "melbourne_ftz_2025_project_data/data/attraction_conditions_hourly_2025.csv",
+      "destination": "data/attraction_conditions_hourly_2025.csv",
+      "sha256": "ec7e1f12c9c0944f28748139fd493e58de086cc5b04433cd540fe7014328a8c7",
+      "modifications": "none; copied byte-for-byte"
+    },
+    {
+      "source_member": "melbourne_ftz_2025_project_data/geometry/ftz_boundary_2025.geojson",
+      "destination": "data/ftz_boundary_2025.geojson",
+      "sha256": "12f93249937fde3c1a0db913dd8e11ad4c14134a2bef1d78d6c29047005eafec",
+      "modifications": "none; copied byte-for-byte"
+    },
+    {
+      "source_member": "melbourne_ftz_2025_project_data/metadata/sources.csv",
+      "destination": "data/sources.csv",
+      "sha256": "435cc8b9d808a7ba3674eff5368035b8593a1d26ecb7cfa790e40d248e5f0536",
+      "modifications": "none; copied byte-for-byte"
+    },
+    {
+      "source_member": "melbourne_ftz_2025_project_data/metadata/crowd_classification_rules_2025.csv",
+      "destination": "data/crowd_classification_rules_2025.csv",
+      "sha256": "3c0c1df248a66819eeb79eb4ee737f1368bc9611ab90e9745298229100e41b53",
+      "modifications": "none; copied byte-for-byte"
+    }
+  ]
+}

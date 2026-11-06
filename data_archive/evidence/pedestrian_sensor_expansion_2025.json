@@ -1,0 +1,80 @@
+{
+  "result": "passed",
+  "analysis_year": 2025,
+  "checked_date": "2026-10-24",
+  "citywide_sensor_count": 102,
+  "citywide_observed_rows": 815447,
+  "expanded_ftz_sensor_count": 68,
+  "expanded_ftz_observed_rows": 554768,
+  "expanded_scope_counts": {
+    "inside_derived_ftz": 47,
+    "boundary_review_required": 21
+  },
+  "baseline_candidate_sensor_count": 58,
+  "baseline_in_scope_sensor_count": 48,
+  "baseline_primary_sensor_count": 8,
+  "new_sensors_beyond_baseline_candidates": 20,
+  "new_sensor_ids": [
+    "8",
+    "9",
+    "10",
+    "23",
+    "24",
+    "40",
+    "58",
+    "75",
+    "77",
+    "107",
+    "108",
+    "130",
+    "132",
+    "133",
+    "134",
+    "135",
+    "137",
+    "164",
+    "167",
+    "182"
+  ],
+  "coordinate_variants_all_geocoded_sensors": "One coordinate pair per sensor in 2025 source records; no variants found.",
+  "citywide_missing_coordinate_sensors": [
+    {
+      "location_id": "78",
+      "records": 8424,
+      "exclusion_reason": "No coordinates in any 2025 observation; current coordinates not promoted to historical evidence."
+    },
+    {
+      "location_id": "28",
+      "records": 7554,
+      "exclusion_reason": "No coordinates in any 2025 observation; current coordinates not promoted to historical evidence."
+    }
+  ],
+  "baseline_observation_comparison": {
+    "baseline_keys_seen": 456860,
+    "unchanged_rows": 456860
+  },
+  "classification_counts": {
+    "Quiet": 436794,
+    "Crowded": 117915,
+    "unclassified": 59
+  },
+  "profile_rows": 11424,
+  "profile_status_counts": {
+    "classified": 10087,
+    "profile_insufficient_coverage": 1337
+  },
+  "n_observed_zero_hours": 1,
+  "n_missing_normal_clock_slots": 40835,
+  "hourly_is_sparse_observations": true,
+  "unchanged_existing_attraction_assignments": true,
+  "unchanged_existing_threshold_rule_id": "CROWD_SHARED_DAYTIME_MEDIAN_V1",
+  "source_download_metadata": "citywide_2025_export_metadata.json",
+  "data_table_specs": "sensor_tables.json",
+  "limitations": [
+    "FTZ boundary is the existing derived approximation, not official surveyed GIS.",
+    "Sparse hourly missing rows must be shown as unavailable, not zero. Left-join all sensor metadata to the selected date/hour to retain grey markers.",
+    "A currently active metadata flag is not evidence of 2025 availability.",
+    "Two nominal DST clock labels retain counts where observed but no class.",
+    "68 separate sensor passage counts cannot be summed into unique visitors."
+  ]
+}

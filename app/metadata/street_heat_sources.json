@@ -1,0 +1,58 @@
+{
+  "prepared": "2026-10-29",
+  "purpose": "Display mask only; no change to pedestrian statistics, kernel, colour scale or filters.",
+  "sources": [
+    {
+      "dataset": "road-segments-with-surface-type",
+      "title": "Road segments, with surface type",
+      "provider": "City of Melbourne",
+      "license": "CC BY 4.0",
+      "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/road-segments-with-surface-type/",
+      "download_url": "https://data.melbourne.vic.gov.au/api/explore/v2.1/catalog/datasets/road-segments-with-surface-type/exports/geojson?where=intersects%28json_geometry%2C+geom%27POLYGON%28%28144.925+-37.834%2C144.991+-37.834%2C144.991+-37.793%2C144.925+-37.793%2C144.925+-37.834%29%29%27%29",
+      "source_bytes": 234021629,
+      "source_sha256": "1cd3890160f7b03f03c829fc6e66162881f66936779f42b2fb09426a1ad6222b",
+      "metadata_modified": "2026-09-10T00:29:01+00:00",
+      "data_processed": "2026-09-10T00:33:07+00:00"
+    },
+    {
+      "dataset": "footpaths",
+      "title": "Footpaths",
+      "provider": "City of Melbourne",
+      "license": "CC BY 4.0",
+      "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/footpaths/",
+      "download_url": "https://data.melbourne.vic.gov.au/api/explore/v2.1/catalog/datasets/footpaths/exports/geojson?where=intersects%28geo_shape%2C+geom%27POLYGON%28%28144.925+-37.834%2C144.991+-37.834%2C144.991+-37.793%2C144.925+-37.793%2C144.925+-37.834%29%29%27%29",
+      "source_bytes": 20090739,
+      "source_sha256": "4bfd1c02895346f7b5f5d0e505a2664573d699ef39669a880cc7749a7ead915c",
+      "metadata_modified": "2023-02-26T05:10:26+00:00",
+      "data_processed": "2022-12-14T04:23:24+00:00"
+    },
+    {
+      "dataset": "2020-building-footprints",
+      "title": "2020 Building Footprints",
+      "provider": "City of Melbourne",
+      "license": "CC BY 4.0",
+      "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/2020-building-footprints/",
+      "download_url": "https://data.melbourne.vic.gov.au/api/explore/v2.1/catalog/datasets/2020-building-footprints/exports/geojson?where=intersects%28geo_shape%2C+geom%27POLYGON%28%28144.925+-37.834%2C144.991+-37.834%2C144.991+-37.793%2C144.925+-37.793%2C144.925+-37.834%29%29%27%29+and+tier%3D1+and+footprint_type%3D%22Structure%22",
+      "source_bytes": 10968490,
+      "source_sha256": "dd481b2c45ac096b7be5717556f16eb7ba7dccaa2828ec33211aa3bccd066801",
+      "metadata_modified": "2026-09-03T12:59:18+00:00",
+      "data_processed": "2022-11-17T05:15:37+00:00"
+    }
+  ],
+  "geometry_rule": "Union Road Carriageway, Road Arterial, Road Footway, Road Tram Formation and mapped footpaths; intersect study boundary; subtract Structure tier=1 building footprints. Simplify at 0.15 metres then intersect exact mask again.",
+  "limitations": [
+    "Building footprints were captured in May 2020; metadata modification in 2026 is not a new survey.",
+    "Road surfaces reflect the current September 2026 catalogue; separate footpaths were processed December 2022. This is not a surveyed 2024/2025 street snapshot.",
+    "Only mapped road and footpath polygons are coloured; unrecorded streets/paths can remain blank.",
+    "Heat is still spatially smoothed nearby pedestrian sensor activity, not per-street measurement, platform occupancy, or capacity utilisation.",
+    "Carriageways and tram corridors are coloured for geographical context; colouring does not imply pedestrians walk on tracks or road lanes."
+  ],
+  "runtime_offline": true,
+  "runtime_sf_required": false,
+  "prepared_files": {
+    "mask.geojson": "4bb27ffe022cf3176cc8896f1a8b2ebc105e1efe00730d6be0af9430339dada8",
+    "road_surfaces.geojson": "f5da189b675ff044f4ae96e5a83375c15d1c77f57052b86f73fdf0377ad466fd",
+    "footpaths.geojson": "90f863380213a0322f57233e77539842f9d442d0a9d75c1c40bad52f7b1af5e3",
+    "building_ground_footprints_2020.geojson": "45b21b212e6fa39383d9b7a6127e7ce49ea5c705583b491868230e2101f3e85c"
+  }
+}
