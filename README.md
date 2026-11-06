@@ -100,3 +100,7 @@ External datasets, photos, map services and visualisations retain their original
 ## Contributors
 
 - **Codex (OpenAI)**: assisted with project review, documentation and GitHub publishing.
+
+## License
+
+The original application source code and original documentation are licensed under the [MIT License](LICENSE). Third-party datasets, photographs, software dependencies and hosted services retain their respective licences and terms. See [Third-party notices](THIRD_PARTY_NOTICES.md).

@@ -100,3 +100,7 @@ Rscript app/run_app.R
 ## 贡献者
 
 - **Codex（OpenAI）**：协助项目检查、文档整理与 GitHub 发布。
+
+## 许可证
+
+项目自行编写的应用源代码和文档采用 [MIT 许可证](LICENSE)。第三方数据、照片、软件依赖及外部服务继续遵循各自的许可或条款，详见[第三方授权说明](THIRD_PARTY_NOTICES.md)。
